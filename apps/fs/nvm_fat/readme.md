@@ -62,5 +62,5 @@ Refer to the following table for switch and LED name:
 
 | Board | Switch name | LED Name |
 | ----- | -------- | --------- |
-|  SAM RH71 Evaluation Kit | PB0 | LED0 |
+|  SAM RH71 Evaluation Kit | PB0 | LED1 |
 |||
