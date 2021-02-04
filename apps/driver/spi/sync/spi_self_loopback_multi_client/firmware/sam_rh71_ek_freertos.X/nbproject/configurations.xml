@@ -6,7 +6,7 @@
                    projectFiles="true">
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_rh71_ek_freertos" projectFiles="true">
-          <logicalFolder name="f5" displayName="bsp" projectFiles="true">
+          <logicalFolder name="f1" displayName="bsp" projectFiles="true">
             <itemPath>../src/config/sam_rh71_ek_freertos/bsp/bsp.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="driver" projectFiles="true">
@@ -17,28 +17,30 @@
             <itemPath>../src/config/sam_rh71_ek_freertos/driver/driver.h</itemPath>
             <itemPath>../src/config/sam_rh71_ek_freertos/driver/driver_common.h</itemPath>
           </logicalFolder>
-          <logicalFolder name="f4" displayName="osal" projectFiles="true">
+          <logicalFolder name="f3" displayName="osal" projectFiles="true">
             <itemPath>../src/config/sam_rh71_ek_freertos/osal/osal.h</itemPath>
             <itemPath>../src/config/sam_rh71_ek_freertos/osal/osal_definitions.h</itemPath>
             <itemPath>../src/config/sam_rh71_ek_freertos/osal/osal_freertos.h</itemPath>
           </logicalFolder>
-          <logicalFolder name="f1" displayName="peripheral" projectFiles="true">
+          <logicalFolder name="f4" displayName="peripheral" projectFiles="true">
             <logicalFolder name="f1" displayName="clk" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/clk/plib_clk.h</itemPath>
             </logicalFolder>
             <logicalFolder name="f6" displayName="flexcom" projectFiles="true">
               <logicalFolder name="f1" displayName="spi" projectFiles="true">
-                <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/flexcom/spi/plib_flexcom2_spi.h</itemPath>
-                <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/flexcom/spi/plib_flexcom_spi_local.h</itemPath>
+                <logicalFolder name="f1" displayName="master" projectFiles="true">
+                  <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/flexcom/spi/master/plib_flexcom2_spi_master.h</itemPath>
+                  <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/flexcom/spi/master/plib_flexcom_spi_master_common.h</itemPath>
+                </logicalFolder>
               </logicalFolder>
             </logicalFolder>
-            <logicalFolder name="f3" displayName="matrix" projectFiles="true">
+            <logicalFolder name="f2" displayName="matrix" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/matrix/plib_matrix.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f4" displayName="nvic" projectFiles="true">
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/nvic/plib_nvic.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f2" displayName="pio" projectFiles="true">
+            <logicalFolder name="f4" displayName="pio" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/pio/plib_pio.h</itemPath>
             </logicalFolder>
             <logicalFolder name="f5" displayName="xdmac" projectFiles="true">
@@ -46,22 +48,22 @@
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/xdmac/plib_xdmac.h</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="f3" displayName="system" projectFiles="true">
-            <logicalFolder name="f3" displayName="cache" projectFiles="true">
+          <logicalFolder name="f5" displayName="system" projectFiles="true">
+            <logicalFolder name="f1" displayName="cache" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/system/cache/sys_cache.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f5" displayName="debug" projectFiles="true">
+            <logicalFolder name="f2" displayName="debug" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/system/debug/sys_debug.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f4" displayName="dma" projectFiles="true">
+            <logicalFolder name="f3" displayName="dma" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/system/dma/sys_dma.h</itemPath>
               <itemPath>../src/config/sam_rh71_ek_freertos/system/dma/sys_dma_mapping.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f1" displayName="int" projectFiles="true">
+            <logicalFolder name="f4" displayName="int" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/system/int/sys_int.h</itemPath>
               <itemPath>../src/config/sam_rh71_ek_freertos/system/int/sys_int_mapping.h</itemPath>
             </logicalFolder>
-            <logicalFolder name="f2" displayName="ports" projectFiles="true">
+            <logicalFolder name="f5" displayName="ports" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/system/ports/sys_ports.h</itemPath>
               <itemPath>../src/config/sam_rh71_ek_freertos/system/ports/sys_ports_mapping.h</itemPath>
             </logicalFolder>
@@ -76,9 +78,11 @@
           <itemPath>../src/config/sam_rh71_ek_freertos/FreeRTOSConfig.h</itemPath>
           <itemPath>../src/config/sam_rh71_ek_freertos/user.h</itemPath>
           <itemPath>../src/config/sam_rh71_ek_freertos/configuration.h</itemPath>
+          <itemPath>../src/config/sam_rh71_ek_freertos/interrupts.h</itemPath>
+          <itemPath>../src/config/sam_rh71_ek_freertos/device_vectors.h</itemPath>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="f3" displayName="FreeRTOS" projectFiles="true">
+      <logicalFolder name="f2" displayName="FreeRTOS" projectFiles="true">
         <logicalFolder name="f1" displayName="Source" projectFiles="true">
           <logicalFolder name="f1" displayName="include" projectFiles="true">
             <itemPath>../src/third_party/rtos/FreeRTOS/Source/include/croutine.h</itemPath>
@@ -109,7 +113,7 @@
           </logicalFolder>
         </logicalFolder>
       </logicalFolder>
-      <logicalFolder name="f2" displayName="packs" projectFiles="true">
+      <logicalFolder name="f3" displayName="packs" projectFiles="true">
         <logicalFolder name="f1" displayName="ATSAMRH71F20C_DFP" projectFiles="true">
           <logicalFolder name="f1" displayName="component" projectFiles="true">
             <itemPath>../src/packs/ATSAMRH71F20C_DFP/component/chipid.h</itemPath>
@@ -141,11 +145,58 @@
             <itemPath>../src/packs/ATSAMRH71F20C_DFP/component/trng.h</itemPath>
             <itemPath>../src/packs/ATSAMRH71F20C_DFP/component/wdt.h</itemPath>
             <itemPath>../src/packs/ATSAMRH71F20C_DFP/component/xdmac.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/component/rswdt.h</itemPath>
+          </logicalFolder>
+          <logicalFolder name="f3" displayName="instance" projectFiles="true">
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/chipid.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom0.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom1.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom2.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom3.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom4.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom5.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom6.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom7.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom8.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexcom9.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/flexramecc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/gmac.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/hefc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/hemc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/hsdramc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/hsmc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/icm.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/ip1553.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/matrix0.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/mcan0.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/mcan1.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/nmic.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/pio.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/pmc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/pwm0.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/pwm1.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/qspi.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/rstc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/rswdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/rtt.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/sfr.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/sha.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/spw.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/supc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/tc0.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/tc1.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/tc2.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/tc3.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/tcmecc.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/trng.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/wdt.h</itemPath>
+            <itemPath>../src/packs/ATSAMRH71F20C_DFP/instance/xdmac.h</itemPath>
           </logicalFolder>
           <logicalFolder name="f2" displayName="pio" projectFiles="true">
             <itemPath>../src/packs/ATSAMRH71F20C_DFP/pio/samrh71f20c.h</itemPath>
           </logicalFolder>
-          <itemPath>../src/packs/ATSAMRH71F20C_DFP/atsamrh71f20c.h</itemPath>
+          <itemPath>../src/packs/ATSAMRH71F20C_DFP/samrh71f20c.h</itemPath>
         </logicalFolder>
         <logicalFolder name="f2" displayName="CMSIS" projectFiles="true">
           <logicalFolder name="f1" displayName="CMSIS" projectFiles="true">
@@ -174,63 +225,69 @@
                    displayName="Important Files"
                    projectFiles="true">
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_rh71_ek_freertos/harmony.prj</itemPath>
-      <itemPath>../../../../../../../../mhc/../core_apps_sam_rh71/apps/driver/spi/sync/spi_self_loopback_multi_client/firmware/src/config/sam_rh71_ek_freertos/sam_rh71_ek_freertos.xml</itemPath>
+      <itemPath>../src/config/sam_rh71_ek_freertos/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
                    projectFiles="true">
+      <logicalFolder name="f1" displayName="config" projectFiles="true">
+        <logicalFolder name="f1" displayName="sam_rh71_ek_freertos" projectFiles="true">
+          <itemPath>../src/config/sam_rh71_ek_freertos/ATSAMRH71F20C.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
     </logicalFolder>
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
       <logicalFolder name="f1" displayName="config" projectFiles="true">
         <logicalFolder name="f1" displayName="sam_rh71_ek_freertos" projectFiles="true">
-          <logicalFolder name="f6" displayName="bsp" projectFiles="true">
+          <logicalFolder name="f1" displayName="bsp" projectFiles="true">
             <itemPath>../src/config/sam_rh71_ek_freertos/bsp/bsp.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f3" displayName="driver" projectFiles="true">
+          <logicalFolder name="f2" displayName="driver" projectFiles="true">
             <logicalFolder name="f1" displayName="spi" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/driver/spi/src/drv_spi.c</itemPath>
               <itemPath>../src/config/sam_rh71_ek_freertos/driver/spi/src/drv_spi_local.h</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="f5" displayName="osal" projectFiles="true">
+          <logicalFolder name="f3" displayName="osal" projectFiles="true">
             <itemPath>../src/config/sam_rh71_ek_freertos/osal/osal_freertos.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f2" displayName="peripheral" projectFiles="true">
+          <logicalFolder name="f4" displayName="peripheral" projectFiles="true">
             <logicalFolder name="f1" displayName="clk" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/clk/plib_clk.c</itemPath>
             </logicalFolder>
             <logicalFolder name="f6" displayName="flexcom" projectFiles="true">
               <logicalFolder name="f1" displayName="spi" projectFiles="true">
-                <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/flexcom/spi/plib_flexcom2_spi.c</itemPath>
+                <logicalFolder name="f1" displayName="master" projectFiles="true">
+                  <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/flexcom/spi/master/plib_flexcom2_spi_master.c</itemPath>
+                </logicalFolder>
               </logicalFolder>
             </logicalFolder>
-            <logicalFolder name="f3" displayName="matrix" projectFiles="true">
+            <logicalFolder name="f2" displayName="matrix" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/matrix/plib_matrix.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f4" displayName="nvic" projectFiles="true">
+            <logicalFolder name="f3" displayName="nvic" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/nvic/plib_nvic.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f2" displayName="pio" projectFiles="true">
+            <logicalFolder name="f4" displayName="pio" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/pio/plib_pio.c</itemPath>
             </logicalFolder>
             <logicalFolder name="f5" displayName="xdmac" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/peripheral/xdmac/plib_xdmac.c</itemPath>
             </logicalFolder>
           </logicalFolder>
-          <logicalFolder name="f1" displayName="stdio" projectFiles="true">
+          <logicalFolder name="f5" displayName="stdio" projectFiles="true">
             <itemPath>../src/config/sam_rh71_ek_freertos/stdio/xc32_monitor.c</itemPath>
           </logicalFolder>
-          <logicalFolder name="f4" displayName="system" projectFiles="true">
-            <logicalFolder name="f2" displayName="cache" projectFiles="true">
+          <logicalFolder name="f6" displayName="system" projectFiles="true">
+            <logicalFolder name="f1" displayName="cache" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/system/cache/sys_cache.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f3" displayName="dma" projectFiles="true">
+            <logicalFolder name="f2" displayName="dma" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/system/dma/sys_dma.c</itemPath>
             </logicalFolder>
-            <logicalFolder name="f1" displayName="int" projectFiles="true">
+            <logicalFolder name="f3" displayName="int" projectFiles="true">
               <itemPath>../src/config/sam_rh71_ek_freertos/system/int/src/sys_int.c</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -246,14 +303,14 @@
       <logicalFolder name="f2" displayName="FreeRTOS" projectFiles="true">
         <logicalFolder name="f1" displayName="Source" projectFiles="true">
           <logicalFolder name="f1" displayName="portable" projectFiles="true">
-            <logicalFolder name="f2" displayName="GCC" projectFiles="true">
+            <logicalFolder name="f1" displayName="GCC" projectFiles="true">
               <logicalFolder name="f1" displayName="SAM" projectFiles="true">
                 <logicalFolder name="f1" displayName="CM7" projectFiles="true">
                   <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7/port.c</itemPath>
                 </logicalFolder>
               </logicalFolder>
             </logicalFolder>
-            <logicalFolder name="f1" displayName="MemMang" projectFiles="true">
+            <logicalFolder name="f2" displayName="MemMang" projectFiles="true">
               <itemPath>../src/third_party/rtos/FreeRTOS/Source/portable/MemMang/heap_1.c</itemPath>
             </logicalFolder>
           </logicalFolder>
@@ -289,7 +346,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAMRH71_DFP" vendor="Microchip" version="2.1.98"/>
+        <pack name="SAMRH71_DFP" vendor="Microchip" version="2.1.105"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
@@ -311,6 +368,7 @@
       </compileType>
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
         <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
         <makeCustomizationPostStep></makeCustomizationPostStep>
@@ -351,7 +409,7 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_rh71_ek_freertos;../src/packs/ATSAMRH71F20C_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/;../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7;../src/third_party/rtos/FreeRTOS/Source/include;../src;../src/config/sam_rh71_ek_freertos;../src/packs/ATSAMRH71F20C_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
@@ -447,7 +505,7 @@
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
         <property key="extra-include-directories"
-                  value="../src;../src/config/sam_rh71_ek_freertos;../src/packs/ATSAMRH71F20C_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+                  value="../src/third_party/rtos/FreeRTOS/Source/include;../src/third_party/rtos/FreeRTOS/Source/portable/GCC/SAM/CM7;../src;../src/config/sam_rh71_ek_freertos;../src/packs/ATSAMRH71F20C_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>

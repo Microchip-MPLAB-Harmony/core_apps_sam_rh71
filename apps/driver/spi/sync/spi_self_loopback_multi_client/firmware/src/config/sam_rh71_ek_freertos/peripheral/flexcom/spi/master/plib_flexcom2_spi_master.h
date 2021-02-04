@@ -5,10 +5,10 @@
     Microchip Technology Inc.
 
   File Name:
-    plib_flexcom2_spi.h
+    plib_flexcom2_spi_master.h
 
   Summary:
-   FLEXCOM2 SPI PLIB Header File.
+   FLEXCOM2 SPI Master PLIB Header File.
 
   Description
     This file defines the interface to the FLEXCOM SPI peripheral library.
@@ -45,8 +45,8 @@
 *******************************************************************************/
 // DOM-IGNORE-END
 
-#ifndef PLIB_FLEXCOM2_SPI_H // Guards against multiple inclusion
-#define PLIB_FLEXCOM2_SPI_H
+#ifndef PLIB_FLEXCOM2_SPI_MASTER_H // Guards against multiple inclusion
+#define PLIB_FLEXCOM2_SPI_MASTER_H
 
 // *****************************************************************************
 // *****************************************************************************
@@ -57,7 +57,7 @@
 */
 
 #include "device.h"
-#include "plib_flexcom_spi_local.h"
+#include "plib_flexcom_spi_master_common.h"
 
 // DOM-IGNORE-BEGIN
 #ifdef __cplusplus // Provide C++ Compatibility
@@ -85,7 +85,7 @@ void FLEXCOM2_SPI_CallbackRegister( FLEXCOM_SPI_CALLBACK callback, uintptr_t con
 
 #endif
 
-#endif // PLIB_FLEXCOM2_SPI_H
+#endif // PLIB_FLEXCOM2_SPI_MASTER_H
 
 /*******************************************************************************
  End of File
