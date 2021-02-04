@@ -154,6 +154,7 @@ SYSTEM_OBJECTS sysObj;
 
 void SYS_Initialize ( void* data )
 {
+
   
     CLOCK_Initialize();
 
