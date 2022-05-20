@@ -55,11 +55,11 @@
 #include "peripheral/flexcom/twi/master/plib_flexcom9_twi_master.h"
 #include "FreeRTOS.h"
 #include "task.h"
-#include "driver/i2c/drv_i2c.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
+#include "driver/i2c/drv_i2c.h"
 #include "bsp/bsp.h"
 #include "app_i2c_eeprom.h"
 
