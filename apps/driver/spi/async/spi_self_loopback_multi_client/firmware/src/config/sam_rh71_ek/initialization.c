@@ -86,7 +86,7 @@ const DRV_SPI_PLIB_INTERFACE drvSPI0PlibAPI = {
     .callbackRegister = (DRV_SPI_PLIB_CALLBACK_REGISTER)FLEXCOM2_SPI_CallbackRegister,
 };
 
-const uint32_t drvSPI0remapDataBits[]= { 0x0, 0x10, 0x20, 0x30, 0x40, 0x50, 0x60, 0x70, 0x80 };
+const uint32_t drvSPI0remapDataBits[]= { 0x0, 0x10, 0x20, 0x30, 0x40, 0x50, 0x60, 0x70, 0x80, 0xFFFFFFFF };
 const uint32_t drvSPI0remapClockPolarity[] = { 0x0, 0x1 };
 const uint32_t drvSPI0remapClockPhase[] = { 0x0, 0x2 };
 
@@ -178,7 +178,8 @@ void SYS_Initialize ( void* data )
   
     CLOCK_Initialize();
 
-	PIO_Initialize();
+    PIO_Initialize();
+
 
 
 
@@ -186,9 +187,9 @@ void SYS_Initialize ( void* data )
 
 	WDT_REGS->WDT_MR = WDT_MR_WDDIS_Msk; 		// Disable WDT 
 
+	BSP_Initialize();
     FLEXCOM2_SPI_Initialize();
 
-	BSP_Initialize();
 
     /* Initialize SPI0 Driver Instance */
     sysObj.drvSPI0 = DRV_SPI_Initialize(DRV_SPI_INDEX_0, (SYS_MODULE_INIT *)&drvSPI0InitData);
