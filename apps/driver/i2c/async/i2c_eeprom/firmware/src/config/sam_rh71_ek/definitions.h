@@ -53,12 +53,12 @@
 #include "peripheral/matrix/plib_matrix.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/flexcom/twi/master/plib_flexcom9_twi_master.h"
-#include "driver/i2c/drv_i2c.h"
+#include "bsp/bsp.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
-#include "bsp/bsp.h"
+#include "driver/i2c/drv_i2c.h"
 #include "app.h"
 
 
