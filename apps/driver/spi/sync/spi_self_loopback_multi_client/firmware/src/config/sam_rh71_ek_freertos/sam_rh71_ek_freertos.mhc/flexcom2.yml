@@ -413,6 +413,13 @@ children:
       - type: Dynamic
         attributes: {id: flexcom2, value: '59'}
   - type: Integer
+    attributes: {id: FLEXCOM_TWI_TIMEOUT_COUNT_VAL}
+    children:
+    - type: Values
+      children:
+      - type: Dynamic
+        attributes: {id: flexcom2, value: '20000'}
+  - type: Integer
     attributes: {id: FLEX_USART_CLOCK_FREQ}
     children:
     - type: Values
