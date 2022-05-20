@@ -65,16 +65,16 @@
 #define HEFC_MEDIA_SIZE              64
 #define HEFC_ERASE_BUFFER_SIZE       4096
 
-typedef enum
-{
-    HEFC_ERROR_NONE = 0x1,
+
+#define HEFC_ERROR_NONE  0x1
     /*In-valid command*/
-    HEFC_CMD_ERROR = 0x2,
+#define HEFC_CMD_ERROR   0x2
     /*Flash region is locked*/
-    HEFC_LOCK_ERROR = 0x4,
+#define HEFC_LOCK_ERROR  0x4
     /*Flash Encountered an write error*/
-    HEFC_WRITE_ERROR = 0x10,
-} HEFC_ERROR;
+#define HEFC_WRITE_ERROR 0x10
+
+typedef uint32_t HEFC_ERROR;
 
 
 void HEFC_Initialize(void);
