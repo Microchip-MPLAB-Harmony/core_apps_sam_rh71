@@ -1,0 +1,79 @@
+{
+	"metaDataVersion": "1.0.0",
+	"category": "com.microchip.ide.project",
+	"content": {
+		"metaDataVersion": "1.1.0",
+		"name": "com.microchip.mcu32.mplabx.project.core_apps_sam_rh71_sst39_read_write_sam_rh71_ek",
+		"version": "3.2.0",
+		"displayName": "Parallel PROM SST39 driver - SST39VF040 memory Read Write Example for SAM RH71 Family",
+		"projectName": "sst39_read_write_sam_rh71_ek",
+		"shortDescription": "This example application shows how to use the Parallel PROM SST39 driver to perform read and write operations on a SST39VF040 memory.",
+		"ide": {
+			"name": "MPLABX",
+			"semverRange": ">=6.5.0"
+		},
+		"compiler": [
+			{
+				"name": "XC32",
+				"semverRange": ">=4.2.0"
+			}
+		],
+		"dfp": {
+			"name": "CMSIS",
+			"semverRange": "^5.4.0"
+		},
+		"configurator": {
+			"name": "MCC",
+			"semverRange": ">=5.3.0"
+		},
+		"device": {
+			"metaDataVersion": "1.0.0",
+			"category": "com.microchip.portal.contentRef",
+			"content": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.device",
+				"name": "ATSAMRH71F20C",
+				"versionRange": "*"
+			}
+		},
+		"author": "Microchip",
+		"subcategories": [
+			[
+				"Development Kit",
+				"SAM RH71 Evaluation Kit"
+			],
+			[
+				"Harmony",
+				"Middleware",
+				"Parallel PROM",
+				"SST39"
+			],
+			[
+				"Parallel PROM",
+				"SST39"
+			]
+		],
+		"peripherals": [
+			"HEMC"
+		],
+		"keywords": [
+			"MCC",
+			"Harmony",
+			"HEMC",
+			"Parallel PROM",
+			"ATSAMRH71F20C",
+			"SAM RH71 Family"
+		],
+		"additionalData": {
+			"longDescription": {
+				"metaDataVersion": "1.0.0",
+				"category": "com.microchip.portal.fileRef",
+				"content": {
+					"metaDataVersion": "1.0.0",
+					"fileName": "./../../readme.md",
+					"mimeType": "text/markdown"
+				}
+			}
+		}
+	}
+}
