@@ -1,4 +1,4 @@
-<config configName="sam_rh71_ek" projectName="task_notification_freertos_sam_rh71_ek" configVersion="1.1" device="ATSAMRH71F20C" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
+<config configName="sam_rh71_ek" projectName="task_notification_freertos_sam_rh71_ek" configVersion="1.1" device="ATSAMRH71F20C" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.0">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -27,7 +27,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.3.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -1512,7 +1512,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\exceptions.c</file>
-         <hash>b268111879b5fa0ab2eaf79fc5d4bd1aa046c54d97805246ce08964100a70bfb</hash>
+         <hash>89852728a9a1cc4c9746839cc3caf5308b8698c0c30bf6bfbad0db9e552a387e</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
@@ -1520,15 +1520,15 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\task.h</file>
-         <hash>85a11a834d04120402087ac61190566f893480e9d6c8fe903218330dc4ea7d30</hash>
+         <hash>45f2245c914ed25ab26a1ea78ddd4ac74cb6522e1b26ac5c44b614ca4c8cee99</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\definitions.h</file>
-         <hash>ca29ad7661ed4bcb8e982aded55525f1e49828c2aed258086307fb8fde55d424</hash>
+         <hash>55eb076b370a92c4ec8debb43e212143fb5d4354ce8caae74df6a7bebbd54940</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\timers.c</file>
-         <hash>dae8ab1093eed0eebd86eef7f4e777e3d249d98b75528ff3841d41ce1c8f3fa6</hash>
+         <hash>24962ef361f396aaa5e6e33776eeeddaf2fb251c87b6fe50602acc56c537b093</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\icm.h</file>
@@ -1536,7 +1536,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\stream_buffer.h</file>
-         <hash>43bd2a4bf5d6495e04c8409187d8f31dfaee58d8f94d7e3a4fd9830e5d7e68dc</hash>
+         <hash>b876d839460197d94d0f95fb93c6aeb457f6fc572d32258480fed7d4de686b6b</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\flexcom.h</file>
@@ -1544,7 +1544,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\list.h</file>
-         <hash>f288a68b8559a1913dd663136711f7adcaf8b3430627d7102978be4d808a02eb</hash>
+         <hash>dc572f54391c0407fc25db360d912fca9118cddae7bd2e3099eb13f18804e5a9</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\libc_syscalls.c</file>
@@ -1556,15 +1556,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\startup_xc32.c</file>
-         <hash>df8a4b3134c200f3c49b22a002683ad847aae02bd02b9ed7e1b58cb13aa872da</hash>
+         <hash>fa38948765d0be1d82cb93775f0312eefedd18727709146ee05a2e86e3394e06</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\croutine.h</file>
-         <hash>b6da8ad0cb09303c87eb634679b97f56001c14f45acd1378103504699a95cad4</hash>
+         <hash>cf52c15fa26a8d4f82b55909b75ebfe2aab25468ba7780748912ddead9812b4e</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\osal\osal.h</file>
-         <hash>d42702188d00d3e1d7219d7eef030485896bf8b5ebe55318656e82f0fbb89788</hash>
+         <hash>8404fbe44807fa0484ffb38843a72cb9af8e31c9c30bd1b2594e609b8ea317d9</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\gmac.h</file>
@@ -1576,7 +1576,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\croutine.c</file>
-         <hash>4566d5abfceea128a553ecf2bbb22b9d7c9c8a1d3c1f02f9091182b5290d02fc</hash>
+         <hash>ebf0cdce261dc4a256c06c0d4ad2582e6026a6da0e973d4cb92092e94ce8f370</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\rswdt.h</file>
@@ -1604,7 +1604,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\portable.h</file>
-         <hash>c95eb0d549ff1c20edebfec41d73584b5a20d21df20a724084200954b9e8d252</hash>
+         <hash>7ade8f368002778c723b3c4e14084910b7225cd36363ed0c948e9ea36c6f251f</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\xdmac.h</file>
@@ -1612,7 +1612,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\FreeRTOSConfig.h</file>
-         <hash>795eb96958f87fb4de694a66ef12c06fa7e5d8bef1aa6cca03b73619884b12cc</hash>
+         <hash>86ff3aae0a34ea42308983950c7a4c4d58c88e6b925b074ad22a4fd252661c0e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\tc3.h</file>
@@ -1624,7 +1624,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\list.c</file>
-         <hash>21fe8dd565f9610e1ff4a6bf7bebbd16842af13d3d2294f1dc67ad279fb01d22</hash>
+         <hash>db5c169cf3efd68da1c6a923ac84eebc724d602c940bde0b9b5f01f05028fde4</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\spw.h</file>
@@ -1632,11 +1632,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\pio\plib_pio.c</file>
-         <hash>486c8badc9e2133b2bc883eb1af5dae3df7aa9922132a82f2ba78639d224b0b3</hash>
+         <hash>0a026f0743cdf03fa83e0bc7db3b97fa7c0a54c648dfb887918114e90fbd77af</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\pin_configurations.csv</file>
-         <hash>2b8bbc45802c4905f752a57cfcf63bdfb35f1dcae7b7e9d5e3f320b23338a7bb</hash>
+         <hash>3ab83044a0a4a3e9d5893f26763a8929db54a781d669b8610330e2dc8edbb06e</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\flexcom8.h</file>
@@ -1668,7 +1668,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_prototypes.h</file>
-         <hash>783d9a41c90817eec55d9317475cc2663a785fc9a955c06d3207fcee6e0ec080</hash>
+         <hash>2b46a2511ce5d23a56bc83079333d8d0a2e33763e5829c9383252806887a3dc0</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\nmic.h</file>
@@ -1684,7 +1684,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\freertos_hooks.c</file>
-         <hash>1c31f7febed38afbcb09d11b002c5dddda98c7ed7aba9ff8f8e32b8c5f288a47</hash>
+         <hash>3062db4f47d59d8ff5654c75b8f3d09cb07ce6c85fd6dfdc1b48536ac865a526</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\pmc.h</file>
@@ -1696,7 +1696,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\interrupts.h</file>
-         <hash>80f41550f3f6628a03962a3d8c703ef0e4d8c99cf59fa6643892826354c238d2</hash>
+         <hash>512357584d854e8b41c655eb523c9693e3e60c4fc3255c2274c1ac92cf7076b8</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_armcc.h</file>
@@ -1704,11 +1704,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\FreeRTOS.h</file>
-         <hash>c8d9b7a52d092f37b4c3b821806bd6e8a30dbcc600960f9aed2b2f10f965c09f</hash>
+         <hash>03e9c94aba57e3cf7f4f73bc2d3eb4a96ae38f3425eedb5450622ca286475a0b</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\interrupts.c</file>
-         <hash>82407eb9b3b5f9bcc47fe995f57b24eac8e01b6ac746525ae2d24870dd685e52</hash>
+         <hash>eb408e6c5d0b0a40e6087dd4e9db2ae3b89664ae207aec49bcdb2ce1c00cdbf3</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\xdmac.h</file>
@@ -1716,11 +1716,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\tasks.c</file>
-         <hash>d680232a4d339b24aa73b6a1ccf3d2e36f710de6e8b80ff06f1702aa98d66037</hash>
+         <hash>9b5354c05c166c88646be4d3e1a24dcd68f2a49e1b0adf80bd928db7cee2c58c</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\osal\osal_freertos.h</file>
-         <hash>ca5e502b9f076c4bdc8d97ac2e4cfdfa5d1b49f7d64222c353fac4dcd794bc7c</hash>
+         <hash>7ad9faa903d8587bab9490660328f134b8e027f9c24bca47201f3f96f3b99474</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\matrix0.h</file>
@@ -1736,7 +1736,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\osal\osal_freertos.c</file>
-         <hash>6f35cfd335587dd112d0ac648ae99539a5acbb98ba80ce6e8c7c855e7b8d7465</hash>
+         <hash>85201651ffb4dad86674b478746e0dc8cd833f98b39c83efc2ae3639f3efdd3b</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_compiler.h</file>
@@ -1744,7 +1744,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\queue.h</file>
-         <hash>ff7a2139380ad0e2695bbc0d068db7a3b7e54ec41387b4c77acbe1aaa2921b7c</hash>
+         <hash>1b61c1669091e59798a34c32c0f1e234d3f6a645f47641753eceeb7e1d9ce628</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\ATSAMRH71F20C.ld</file>
@@ -1752,7 +1752,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\GCC\SAM\CM7\port.c</file>
-         <hash>c13cf6b64c988ccf7783fb17d742b5e92fcfc29989b354167c28d6a70d938172</hash>
+         <hash>ed3868ee6c8e1c8f6645a3e03b9de3aaf3aca28417321f5d324420f9c1b736fc</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\rstc.h</file>
@@ -1768,7 +1768,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\osal\osal_definitions.h</file>
-         <hash>6dc49e317b4557c5516a172c1437125874abd98ffcc7260e3422966078dcef7f</hash>
+         <hash>af2f2336fac0fd5b49fb2d1c8f81baa4f554101b06f130aaa608cd9685c4ac35</hash>
       </entry>
       <entry>
          <file>..\src\app1.c</file>
@@ -1816,7 +1816,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\deprecated_definitions.h</file>
-         <hash>1947473678873963f3193497280d907f59a5936f92df6395327f7ca684cb1aa6</hash>
+         <hash>35000a143464bbbd8df7c9a6f066a64598a24da5174a7be33972e62bfbd75f4d</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\configuration.h</file>
@@ -1840,7 +1840,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\cache\sys_cache.h</file>
-         <hash>3407ecac4da455d4b8ba70043f10c20b10e1304e92402db824ca5efa6a2f8402</hash>
+         <hash>b4b3a4e7434759c9bbcd3c6a0ab97558eb2a007f083a4eb76dbedcb2e2c3d86b</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\fuses.h</file>
@@ -1848,7 +1848,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\nvic\plib_nvic.c</file>
-         <hash>a80eae73a2888a7cc4b38dbddb9d78393b688f9ac970623453abca684ae502e8</hash>
+         <hash>b6968423bff18b1d6e7a68fe6a65c749287cf6eaeefb165a8ad852dc7411c877</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\nvic\plib_nvic.h</file>
@@ -1868,11 +1868,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\semphr.h</file>
-         <hash>6bc571df5182f06bcafe5280fdf762bbba2bf1dbb7867ae3721ce2d7e3e51dae</hash>
+         <hash>c624e8cdfc07844d4cf35382f3cc908c872375c7a3048482bdc110bda88cc4f2</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\timers.h</file>
-         <hash>2bf5b5f5d83684c1e6d90e5bd17da9de41d38ed61ec0410f94595ff343f89174</hash>
+         <hash>ee0f596a54137e26ca806ebf067c4c6219a61348f1cbae8861a43d2d4891e1f9</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\device_vectors.h</file>
@@ -1884,15 +1884,15 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\bsp\bsp.h</file>
-         <hash>1dce0d5989438487e7ac72b1b1dc708fa037e4a5f5b9f284eadc86a12cdb68bf</hash>
+         <hash>afcc7e7dfc7679a0d56879bd15d0b5f3f89363ee4cb6f34746af8d28ca982f6e</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\cache\sys_cache.c</file>
-         <hash>7266793f96d0991d1cff7006720bff2a3f6974ca34aa53e488763b2a9f307ab9</hash>
+         <hash>5f8c30e8077b915a4c4ff0515354b2877dc74c3236f307bdc1132307269fbf86</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\FreeRTOS_tasks.c</file>
-         <hash>f97f4e54a7511e5aea34f583061c628bf718b1024af6ec4cff55cb50365305da</hash>
+         <hash>14020d617b96dd2814e1211f6e3b645bcf5e2bd3179c23fe7dd16bc666fe9463</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\device.h</file>
@@ -1904,7 +1904,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\event_groups.c</file>
-         <hash>82542c835466f2abd0eeb2988a0bcecf3d6a14c9dd87ad4a7ca325b15afbce95</hash>
+         <hash>76e967b14d231e4f31f014f1564f359a7bfd36bfa263ee6f437afa8c056df657</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_rh71_ek\sys_tasks.h</file>
+         <hash>c85c4ebfa252edb87e7352d6c72df9abbc6ae0a4609521eb6b42e6236e1162ea</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\hemc.h</file>
@@ -1948,7 +1952,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\toolchain_specifics.h</file>
-         <hash>2559d185e92918f61c308a62200cb0cda72726c63111561524dd53afcc635a18</hash>
+         <hash>406ef48ae415706beb0796977cab09342077f7b1efc3f24767bd97bbd5e5a433</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\matrix\plib_matrix.h</file>
@@ -1964,7 +1968,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\MemMang\heap_1.c</file>
-         <hash>d03a08079e678cc6e6a1e2105684ab0082d190bbb731f6807d75e1aca260e98f</hash>
+         <hash>286e3fee81c9107fc6dec40405f500cabdca56836d29747c182f0899bb8997fd</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\flexcom6.h</file>
@@ -1976,7 +1980,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\portable\GCC\SAM\CM7\portmacro.h</file>
-         <hash>665d412b39738916febb194a546b3478c8ad352f868a8874e26343d3f9912467</hash>
+         <hash>df927dd0711b4846b47c858a456715d828dcbfdcd5e195e1903398db7fdb5166</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\flexcom2.h</file>
@@ -1988,7 +1992,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\stack_macros.h</file>
-         <hash>06b5b66a9b98ad4998c82d353c0108b9db1a846951b8865cbdeeef90c5bbe2fe</hash>
+         <hash>3cddf2b3d47ae387e376ac75eb468f9d8ffb575d68c143e08d54af4087474cce</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\ip1553.h</file>
@@ -2004,11 +2008,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\projdefs.h</file>
-         <hash>292c78c91dbf63a6aa028f381b1dd548d549949f4fb9fcfd97f949569e013d76</hash>
+         <hash>8faf4220ded25b00fd72424a2fa4e63e154713ae7b42f7270f1e3289362a6312</hash>
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\message_buffer.h</file>
-         <hash>0f5a90e8303d9aa2a9c897d6b90da50df21776c6bde7bf8c792cacffa3048c8d</hash>
+         <hash>9a8141d3d6c8044a57d7e448180c9bd2ed32e45ded32be288d095a39dced91ab</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\tcmecc.h</file>
@@ -2020,7 +2024,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\event_groups.h</file>
-         <hash>a73c0b319370116d5981d5dacbabad3a775f85ae540ef70b4ced1c99c9ac6cd5</hash>
+         <hash>7b3dd12a50d649c124c1af8be742671b9965b6f924310bda7984fe1b65c7f54a</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\mcan1.h</file>
@@ -2028,7 +2032,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\queue.c</file>
-         <hash>4452e3b0e6446b74c7d010d308072ba0a35c1f92bcf3882a54bf3796a72517aa</hash>
+         <hash>5cdf4fa35fe059446effff5bf20deaf83ddffb08921bc198fda106b1d17dd894</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\icm.h</file>
@@ -2044,11 +2048,11 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\include\mpu_wrappers.h</file>
-         <hash>0f7a750669b24c41af51482eb76c867a1ed11c14dd4877d07433db3953d9a792</hash>
+         <hash>5014408cc33f0f616215f2b48c67b0d47ccc35bfd5f0044ac653b5bbc6cf5778</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\clk\plib_clk.c</file>
-         <hash>46982e82f0009c5d4838b4ff7cd898536bee7bc0dd27018e6b989a5c9e042281</hash>
+         <hash>f9e298d9c0aa5f0630f9750d1cc2d97b49bbaa154623adb4daa1e6a4d9f88318</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\clk\plib_clk.h</file>
@@ -2076,7 +2080,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\initialization.c</file>
-         <hash>fa7c7d2b412224817de764fce7fbf17717404c40f889a98098d5d0d507731b5e</hash>
+         <hash>4cace9b9838b6a08afba2efdd65d437131dec6d6d42938017a4120d73d569d28</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\rtt.h</file>
@@ -2092,7 +2096,7 @@
       </entry>
       <entry>
          <file>..\src\third_party\rtos\FreeRTOS\Source\stream_buffer.c</file>
-         <hash>a62731cd211dd9caf70958b229d4a3a607ef12e6fbfec573a0d089f21c45f34f</hash>
+         <hash>0ec303ba296caca5de955dc470bcadd134fb15b192ddf61c9afc92070bc1039a</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\flexcom3.h</file>
