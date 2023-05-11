@@ -54,12 +54,12 @@
 #include "peripheral/matrix/plib_matrix.h"
 #include "peripheral/nvic/plib_nvic.h"
 #include "peripheral/flexcom/usart/plib_flexcom1_usart.h"
+#include "bsp/bsp.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
 #include "system/dma/sys_dma.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
-#include "bsp/bsp.h"
 #include "app.h"
 
 
@@ -71,6 +71,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "ATSAMRH71F20C"
+#define DEVICE_ARCH			 "CORTEX-M7"
+#define DEVICE_FAMILY		 "SAMRH"
+#define DEVICE_SERIES		 "SAMRH71"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 100000000
