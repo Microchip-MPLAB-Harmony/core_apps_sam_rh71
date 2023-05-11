@@ -61,7 +61,7 @@
 #include "peripheral/xdmac/plib_xdmac.h"
 #include "peripheral/tc/plib_tc0.h"
 #include "driver/sdspi/drv_sdspi.h"
-#include "peripheral/flexcom/spi/master/plib_flexcom2_spi_master.h"
+#include "system/time/sys_time.h"
 #include "bsp/bsp.h"
 #include "system/int/sys_int.h"
 #include "system/ports/sys_ports.h"
@@ -69,7 +69,7 @@
 #include "system/dma/sys_dma.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
-#include "system/time/sys_time.h"
+#include "peripheral/flexcom/spi/master/plib_flexcom2_spi_master.h"
 #include "app.h"
 
 
@@ -81,6 +81,12 @@ extern "C" {
 
 #endif
 // DOM-IGNORE-END
+
+/* Device Information */
+#define DEVICE_NAME			 "ATSAMRH71F20C"
+#define DEVICE_ARCH			 "CORTEX-M7"
+#define DEVICE_FAMILY		 "SAMRH"
+#define DEVICE_SERIES		 "SAMRH71"
 
 /* CPU clock frequency */
 #define CPU_CLOCK_FREQUENCY 100000000
