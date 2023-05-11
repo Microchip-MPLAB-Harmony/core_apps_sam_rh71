@@ -1,4 +1,4 @@
-<config configName="sam_rh71_ek" projectName="sys_time_multiclient_sam_rh71_ek" configVersion="1.1" device="ATSAMRH71F20C" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.4.3">
+<config configName="sam_rh71_ek" projectName="sys_time_multiclient_sam_rh71_ek" configVersion="1.1" device="ATSAMRH71F20C" deviceLibraryClass="com.microchip.mcc.harmony.Harmony3Library" coreVersion="5.5.0">
    <usedPackages class="java.util.ArrayList"/>
    <usedClasses class="java.util.TreeMap">
       <entry>
@@ -39,7 +39,7 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.1.1"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.harmony.Harmony3Library" version="1.3.1"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -3236,7 +3236,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\exceptions.c</file>
-         <hash>b268111879b5fa0ab2eaf79fc5d4bd1aa046c54d97805246ce08964100a70bfb</hash>
+         <hash>89852728a9a1cc4c9746839cc3caf5308b8698c0c30bf6bfbad0db9e552a387e</hash>
       </entry>
       <entry>
          <file>..\src\packs\CMSIS\CMSIS\Core\Include\cmsis_gcc.h</file>
@@ -3244,7 +3244,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\definitions.h</file>
-         <hash>cf6ab647aa372551879276113ad79ef47c0d6e26cdc4687f3a1f09bc9f9917ce</hash>
+         <hash>f6d0ba409c38b509339db54cd1f47cdf0b9562599cc33898c913080341dbc497</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\icm.h</file>
@@ -3264,11 +3264,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\startup_xc32.c</file>
-         <hash>df8a4b3134c200f3c49b22a002683ad847aae02bd02b9ed7e1b58cb13aa872da</hash>
+         <hash>fa38948765d0be1d82cb93775f0312eefedd18727709146ee05a2e86e3394e06</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\osal\osal.h</file>
-         <hash>d42702188d00d3e1d7219d7eef030485896bf8b5ebe55318656e82f0fbb89788</hash>
+         <hash>8404fbe44807fa0484ffb38843a72cb9af8e31c9c30bd1b2594e609b8ea317d9</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\gmac.h</file>
@@ -3320,11 +3320,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\pio\plib_pio.c</file>
-         <hash>f54135f21caedf0e8f515b4a66aef300936f7b022b59199097fc373cce548359</hash>
+         <hash>4ff7448a80c02d255160bc69d4c7e5df1176faed89c089dcde59c3fda6ca9ba5</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\pin_configurations.csv</file>
-         <hash>2de6f5f016364ea6ca4a90922a9bc966f73af28810686a767f78b63b1527af73</hash>
+         <hash>48e02fffd4b82bc0a151ad9d512f302b80f001529aab2c4493aafc88d050b925</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\flexcom8.h</file>
@@ -3332,7 +3332,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\int\sys_int_mapping.h</file>
-         <hash>660e7081f93de17660144721849acf269925988a4f6510028d25903aaa866ea1</hash>
+         <hash>5abf8528dabc1b17378f5d137870597037214fddf33880fa40e9263352da3008</hash>
       </entry>
       <entry>
          <file>..\src\app.h</file>
@@ -3348,7 +3348,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\stdio\xc32_monitor.c</file>
-         <hash>8273c856c7cbb8caede905000f97568854188056b58f9af3ffb19fbbba7a6072</hash>
+         <hash>89ca5176337e35ea5eedc0ea8629074356c720f13eb3ba2c7fc7537de870e412</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\flexcom0.h</file>
@@ -3372,7 +3372,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\int\src\sys_int.c</file>
-         <hash>23e798871ce6f7b4b0e0dbd5cb2cad7b43bd2dd1f38152f28d14f5a5b7a2938b</hash>
+         <hash>4281667cc2b84c9e4be1f0dfb3f7d42b77d36c5dcf6513d29ff40262f746cfc6</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\pmc.h</file>
@@ -3392,7 +3392,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\interrupts.c</file>
-         <hash>ab9ea006f13619e78ee05193358da3f859edea9e46246649218381a1580dfff4</hash>
+         <hash>52110214caa2a26d2d585425c359e3257043afd9d67e6b8cbdbd46c444807900</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\xdmac.h</file>
@@ -3400,7 +3400,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\tasks.c</file>
-         <hash>fef67f1a3984e2d93fc35edcdf1a53dd426162db6d47cba992fc49f8660df833</hash>
+         <hash>36364a39e784157f4aac281dfecc1f19be971c9935e6299a6f37a78cd98d1d46</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\flexcom\usart\plib_flexcom1_usart.h</file>
@@ -3408,7 +3408,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\flexcom\usart\plib_flexcom1_usart.c</file>
-         <hash>7654e12458d798e7b0776f586d2d0f1ce55422567ba7664d32c84f9c73d38ba3</hash>
+         <hash>d37a48d6d364d006a0c4963772fdb14d58c37840b0d20d731776262fc1ce63ba</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\matrix0.h</file>
@@ -3432,7 +3432,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\time\sys_time_definitions.h</file>
-         <hash>904195d4340ba6b97cf19c25b9695d2a9f37ed67cf6abdf8ee1ee839506e2801</hash>
+         <hash>46537746b1d12ece6b682c9be1c8f3f219663c638c21a51a973762b7b393afe6</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\rstc.h</file>
@@ -3444,11 +3444,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\int\sys_int.h</file>
-         <hash>71e36331ee689ae305b3d8ec49948e3dde0324b65f51bf38f4472b900a421ed6</hash>
+         <hash>dc104ae181fd5309e1bb42896246644fae95915a8e639b23ecfccc8840850274</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\osal\osal_definitions.h</file>
-         <hash>0a5ca28c4812bb37babfebc1fe30a90b13583504d81910ad159feb746a5b002c</hash>
+         <hash>5f0a2513a093b6d228e2b50646b204923a82047335a47f3d35a2938309ab6f37</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\qspi.h</file>
@@ -3512,7 +3512,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\cache\sys_cache.h</file>
-         <hash>3407ecac4da455d4b8ba70043f10c20b10e1304e92402db824ca5efa6a2f8402</hash>
+         <hash>b4b3a4e7434759c9bbcd3c6a0ab97558eb2a007f083a4eb76dbedcb2e2c3d86b</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\fuses.h</file>
@@ -3520,7 +3520,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\nvic\plib_nvic.c</file>
-         <hash>b4a1ab0bc767218b5985754515029119f3e705c623e809eb6fa12247b2379c7d</hash>
+         <hash>01295d20ffeee017ebfb54a4085d47451d675180b9990abf6ed745701f5f3a05</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\nvic\plib_nvic.h</file>
@@ -3540,11 +3540,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\tc\plib_tc_common.h</file>
-         <hash>18de4e464f8009ae88ff57f51eade38db795cae08b4a09570ef487e4e980d086</hash>
+         <hash>920c335908d58caf6b00d824870cc7c8b80011a09c27e6ff7b56f6fc237ee5c5</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\system_common.h</file>
-         <hash>0dbf2f60b29c97426e70187bc59c652ab5a355f51cfbe3f195ff1c8c6c0b1602</hash>
+         <hash>c9f34bd226f8efab12f5766e77f8355996cd0430b50e0f6ee30258664c494984</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\device_vectors.h</file>
@@ -3552,7 +3552,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\bsp\bsp.h</file>
-         <hash>1dce0d5989438487e7ac72b1b1dc708fa037e4a5f5b9f284eadc86a12cdb68bf</hash>
+         <hash>afcc7e7dfc7679a0d56879bd15d0b5f3f89363ee4cb6f34746af8d28ca982f6e</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\user.h</file>
@@ -3560,11 +3560,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\time\sys_time.h</file>
-         <hash>f21b100d8f0b8b79af9217315098d51df855d9015f05a7e25ad77414cd19b2c3</hash>
+         <hash>6357468f7670698b16bfb6439d9919ed38eba99d4f03277a8b43ac34586fa1b3</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\cache\sys_cache.c</file>
-         <hash>7266793f96d0991d1cff7006720bff2a3f6974ca34aa53e488763b2a9f307ab9</hash>
+         <hash>5f8c30e8077b915a4c4ff0515354b2877dc74c3236f307bdc1132307269fbf86</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\device.h</file>
@@ -3573,6 +3573,10 @@
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\mcan0.h</file>
          <hash>3dd6dabe05c6b83203fe27bcf98e79dd4d74cd0cd33af63e620026070146659d</hash>
+      </entry>
+      <entry>
+         <file>..\src\config\sam_rh71_ek\sys_tasks.h</file>
+         <hash>21f254f497a18a024cd00128d06c4776c2643f867a460c1ba9880a7dd41a8d56</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\hemc.h</file>
@@ -3616,7 +3620,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\toolchain_specifics.h</file>
-         <hash>2559d185e92918f61c308a62200cb0cda72726c63111561524dd53afcc635a18</hash>
+         <hash>406ef48ae415706beb0796977cab09342077f7b1efc3f24767bd97bbd5e5a433</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\matrix\plib_matrix.h</file>
@@ -3628,7 +3632,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\time\src\sys_time_local.h</file>
-         <hash>d3ef06b59d9a89efe9e8eb54fcf3b75120d56156cc21f6847ca4f9e902eb7c9d</hash>
+         <hash>df56f970664902417d798760e44978cf4b84c108cf0761647a383e91db76980c</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\tc1.h</file>
@@ -3660,11 +3664,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\time\src\sys_time.c</file>
-         <hash>4c2c39bc061655a06d6da7bd1f448c4de26a181e5710d74b4391923fb37ddadb</hash>
+         <hash>fa2d85ab967b80157caf8483f6e28a23b12b548844a1d80f2fef760cd9b99271</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\osal\osal_impl_basic.h</file>
-         <hash>0c388837ef1d4e207a028ed31bfe07f1aac7ea8b0505caff58f737667ccbeaee</hash>
+         <hash>67ce72d34fd1e4dee0b6937fa026ab2c7bd285f82a24da09742c68333adaf0fc</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\gmac.h</file>
@@ -3676,7 +3680,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\flexcom\usart\plib_flexcom_usart_local.h</file>
-         <hash>ab93fd45b0e4b8313a701921da099d2bdf35839d7479149fda62987c9773e075</hash>
+         <hash>d7d8e1bab1992fd5471cbee03dfbe206d761d9e622c721c08f3546ef7d335b64</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\fuses.h</file>
@@ -3684,7 +3688,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\debug\sys_debug.h</file>
-         <hash>222cdc284bd651e83188b9641cc57c133cf86563dbeb5d5523766d4a36087165</hash>
+         <hash>bc6fa321b0be542d074e4564065b7fd69f52556486ac3d892d315b51c434f9ec</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\mcan1.h</file>
@@ -3704,7 +3708,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\clk\plib_clk.c</file>
-         <hash>2df18700e7e5d15b87d6cbd0c5f945864d7e979321d0f2d805008975b651417d</hash>
+         <hash>6256bee70bd21668237981f769ccc98f325def15903f8086d06ccf1ea9d66d99</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\tc\plib_tc0.h</file>
@@ -3716,7 +3720,7 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\peripheral\tc\plib_tc0.c</file>
-         <hash>5285749cf1f249c92d7ee8707fffdaeb16dc2690b0517cdd6f3c184a682d8283</hash>
+         <hash>5004b4fcb4dbbc3ac6081fbbb307884aa41a29a043a9f8634a3798076e516fc7</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\instance\pwm0.h</file>
@@ -3740,11 +3744,11 @@
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\initialization.c</file>
-         <hash>6a94d6cc31a44bca36e13e646b366ef5516007b83b5902d4a0fee0a37cb887fd</hash>
+         <hash>fd31e088c33c1a182d384c651114cb6b0398e13e049515998b9d6bc8e4a5576e</hash>
       </entry>
       <entry>
          <file>..\src\config\sam_rh71_ek\system\system_module.h</file>
-         <hash>981fac23277aa77f682e7a9a28d436f892006cd5b4c7f23f50941b6d9a30e740</hash>
+         <hash>96c74368801b0a7aaa25aec3ec2cb0d483250385f103ffc1ff64089b4ca2c6d9</hash>
       </entry>
       <entry>
          <file>..\src\packs\ATSAMRH71F20C_DFP\component\rtt.h</file>
