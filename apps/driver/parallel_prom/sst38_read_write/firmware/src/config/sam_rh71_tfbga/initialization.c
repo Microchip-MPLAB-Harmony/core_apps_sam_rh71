@@ -62,21 +62,26 @@
 // Section: Driver Initialization Data
 // *****************************************************************************
 // *****************************************************************************
+/* Following MISRA-C rules are deviated in the below code block */
+/* MISRA C-2012 Rule 11.1 */
+/* MISRA C-2012 Rule 11.3 */
+/* MISRA C-2012 Rule 11.8 */
 // <editor-fold defaultstate="collapsed" desc="DRV_SST38 Initialization Data">
 
-const DRV_SST38_PLIB_INTERFACE drvSST38PlibAPI = {
-    .write              = (DRV_SST38_PLIB_WRITE)HEMC_Write16,
-    .read               = (DRV_SST38_PLIB_READ)HEMC_Read16,
+static const DRV_SST38_PLIB_INTERFACE drvSST38PlibAPI = {
+    .write_t              = (DRV_SST38_PLIB_WRITE)HEMC_Write16,
+    .read_t               = (DRV_SST38_PLIB_READ)HEMC_Read16,
     .eccDisable         = (DRV_SST38_PLIB_ECC_DISABLE)HEMC_DisableECC,
     .eccEnable          = (DRV_SST38_PLIB_ECC_ENABLE)HEMC_EnableECC,
 };
 
-const DRV_SST38_INIT drvSST38InitData =
+static const DRV_SST38_INIT drvSST38InitData =
 {
     .sst38Plib      = &drvSST38PlibAPI,
 };
 
 // </editor-fold>
+
 
 
 
@@ -109,7 +114,7 @@ SYSTEM_OBJECTS sysObj;
 // *****************************************************************************
 // *****************************************************************************
 
-
+/* MISRAC 2012 deviation block end */
 
 /*******************************************************************************
   Function:
@@ -142,17 +147,26 @@ void SYS_Initialize ( void* data )
 	WDT_REGS->WDT_MR = WDT_MR_WDDIS_Msk; 		// Disable WDT 
 
 
+
+    /* MISRAC 2012 deviation block start */
+    /* Following MISRA-C rules deviated in this block  */
+    /* MISRA C-2012 Rule 11.3 - Deviation record ID - H3_MISRAC_2012_R_11_3_DR_1 */
+    /* MISRA C-2012 Rule 11.8 - Deviation record ID - H3_MISRAC_2012_R_11_8_DR_1 */
+
     sysObj.drvSST38 = DRV_SST38_Initialize((SYS_MODULE_INDEX)DRV_SST38_INDEX, (SYS_MODULE_INIT *)&drvSST38InitData);
 
 
 
 
+    /* MISRAC 2012 deviation block end */
     APP_Initialize();
 
 
     NVIC_Initialize();
 
+
     /* MISRAC 2012 deviation block end */
+
 }
 
 
