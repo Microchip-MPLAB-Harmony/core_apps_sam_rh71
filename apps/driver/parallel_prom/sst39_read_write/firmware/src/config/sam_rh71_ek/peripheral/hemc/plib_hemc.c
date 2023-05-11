@@ -54,8 +54,6 @@
 // *****************************************************************************
 
 
-void HSMC_Initialize( void )
-{
 
 
 
@@ -63,7 +61,7 @@ void HSMC_Initialize( void )
 
 
 
-}
+
 void HEMC_Initialize( void )
 {
     /* Read NCS0 Pin configuration for HECC */
@@ -80,7 +78,6 @@ void HEMC_Initialize( void )
                               HEMC_CR_NCS0_ECC_ENABLE((uint32_t)eccEnableDefault) |
                               HEMC_CR_NCS0_ECC12_ENABLE((uint32_t)eccAlgoDefault);
 
-    HSMC_Initialize();
 
 
 
@@ -106,8 +103,9 @@ void HEMC_Initialize( void )
 bool HEMC_DisableECC(uint8_t chipSelect)
 {
     bool ret = false;
-    volatile uint32_t* pHemcCrNcsReg = 0;
-    volatile uint32_t hemcCrEnableMask = 0;
+    volatile uint32_t* pHemcCrNcsReg = NULL;
+    uint32_t hemcCrEnableMask = 0;
+    bool DisEccCheck = true;
 
     switch (chipSelect)
     {
@@ -115,46 +113,54 @@ bool HEMC_DisableECC(uint8_t chipSelect)
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS0);
             hemcCrEnableMask = HEMC_CR_NCS0_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 1:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS1);
             hemcCrEnableMask = HEMC_CR_NCS1_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 2:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS2);
             hemcCrEnableMask = HEMC_CR_NCS2_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 3:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS3);
             hemcCrEnableMask = HEMC_CR_NCS3_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 4:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS4);
             hemcCrEnableMask = HEMC_CR_NCS4_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 5:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS5);
             hemcCrEnableMask = HEMC_CR_NCS5_ECC_ENABLE_Msk;
-        }
             break;
+        }
         default:
-            return false;
+            DisEccCheck = false;
+            break;
     }
 
+    if( DisEccCheck == false)
+    {
+        return DisEccCheck;
+    }
     if ( (*pHemcCrNcsReg & hemcCrEnableMask) == hemcCrEnableMask)
     {
         *pHemcCrNcsReg &= ~(hemcCrEnableMask);
-        while((*pHemcCrNcsReg & hemcCrEnableMask) == hemcCrEnableMask);
+        while((*pHemcCrNcsReg & hemcCrEnableMask) == hemcCrEnableMask)
+        {
+            /* Nothing to do */
+        }
         ret = true;
     }
 
@@ -179,9 +185,9 @@ bool HEMC_DisableECC(uint8_t chipSelect)
 */
 bool HEMC_EnableECC(uint8_t chipSelect)
 {
-    bool ret = false;
-    volatile uint32_t* pHemcCrNcsReg = 0;
-    volatile uint32_t hemcCrEnableMask = 0;
+    bool ret = false, EnEccCheck = true;
+    volatile uint32_t* pHemcCrNcsReg = NULL;
+    uint32_t hemcCrEnableMask = 0;
 
     switch (chipSelect)
     {
@@ -189,44 +195,53 @@ bool HEMC_EnableECC(uint8_t chipSelect)
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS0);
             hemcCrEnableMask = HEMC_CR_NCS0_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 1:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS1);
             hemcCrEnableMask = HEMC_CR_NCS1_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 2:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS2);
             hemcCrEnableMask = HEMC_CR_NCS2_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 3:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS3);
             hemcCrEnableMask = HEMC_CR_NCS3_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 4:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS4);
             hemcCrEnableMask = HEMC_CR_NCS4_ECC_ENABLE_Msk;
-        }
             break;
+        }
         case 5:
         {
             pHemcCrNcsReg = &(HEMC_REGS->HEMC_CR_NCS5);
             hemcCrEnableMask = HEMC_CR_NCS5_ECC_ENABLE_Msk;
-        }
             break;
+        }
         default:
-            return false;
+             EnEccCheck = false;
+             break;
+    }
+
+    if( EnEccCheck == false)
+    {
+        return EnEccCheck;
     }
 
     *pHemcCrNcsReg |= hemcCrEnableMask;
-    while((*pHemcCrNcsReg & hemcCrEnableMask) != hemcCrEnableMask);
+    while((*pHemcCrNcsReg & hemcCrEnableMask) != hemcCrEnableMask)
+    {
+        /* Nothing to do */
+    }
     ret = true;
 
     return ret;
