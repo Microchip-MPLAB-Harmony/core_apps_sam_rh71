@@ -4,7 +4,7 @@
 	"content": {
 		"metaDataVersion": "1.1.0",
 		"name": "com.microchip.mcu32.mplabx.project.core_apps_sam_rh71_sst38_read_write_sam_rh71_ek",
-		"version": "3.2.0",
+		"version": "3.4.0",
 		"displayName": "Parallel PROM SST38 driver - SST38VF6401 memory Read Write Example for SAM RH71 Family",
 		"projectName": "sst38_read_write_sam_rh71_ek",
 		"shortDescription": "This example application shows how to use the Parallel PROM SST38 driver to perform read and write operations on a SST38VF6401 memory.",
@@ -15,12 +15,12 @@
 		"compiler": [
 			{
 				"name": "XC32",
-				"semverRange": ">=4.2.0"
+				"semverRange": ">=4.21.0"
 			}
 		],
 		"dfp": {
-			"name": "CMSIS",
-			"semverRange": "^5.4.0"
+			"name": "SAMRH71_DFP",
+			"semverRange": "^2.5.142"
 		},
 		"configurator": {
 			"name": "MCC",
