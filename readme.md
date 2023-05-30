@@ -39,6 +39,8 @@ The following applications are provided to demonstrate the typical or interestin
 | ---- | ----------- |
 | [I2C driver asynchronous - I2C EEPROM](apps/driver/i2c/async/i2c_eeprom/readme.md) | This example application shows how to use the I2C driver in asynchronous mode to perform operations on the EEPROM |
 | [I2C driver synchronous - I2C EEPROM](apps/driver/i2c/sync/i2c_eeprom/readme.md) | This example application shows how to use the I2C driver in synchronous mode to perform operations on the EEPROM |
+| [Parallel PROM SST38 driver - SST38VF6401 memory Read Write](apps/driver/parallel_prom/sst38_read_write/firmware/readme.md) | This example application shows how to use the Parallel PROM SST38 driver to perform read and write operations on a SST38VF6401 memory |
+| [Parallel PROM SST39 driver - SST39VF040 memory Read Write](apps/driver/parallel_prom/sst39_read_write/firmware/readme.md) | This example application shows how to use the Parallel PROM SST39 driver to perform read and write operations on a SST39VF040 memory |
 | [SPI Driver asynchronous - Self loopback multi client](apps/driver/spi/async/spi_self_loopback_multi_client/readme.md) | This example demonstrates how to use the SPI driver in asynchronous mode to achieve self-loop back between multiple clients |
 | [SPI Driver synchronous - Self loopback multi client](apps/driver/spi/sync/spi_self_loopback_multi_client/readme.md) | This example demonstrates how to use the SPI driver in synchronous mode to achieve self-loop back between multiple clients in RTOS environment |
 | [USART driver asynchronous - UART echo](apps/driver/usart/async/usart_echo/readme.md) | This example echoes the received characters over the console using the USART driver in asynchronous mode |
