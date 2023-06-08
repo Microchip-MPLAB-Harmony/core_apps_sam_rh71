@@ -58,6 +58,7 @@
           <itemPath>../src/config/sam_rh71_ek/definitions.h</itemPath>
           <itemPath>../src/config/sam_rh71_ek/interrupts.h</itemPath>
           <itemPath>../src/config/sam_rh71_ek/user.h</itemPath>
+          <itemPath>../src/config/sam_rh71_ek/sys_tasks.h</itemPath>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
@@ -226,6 +227,7 @@
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="false">
       <itemPath>Makefile</itemPath>
       <itemPath>sst39_read_write_sam_rh71_ek.mc3</itemPath>
+      <itemPath>../src/config/sam_rh71_ek/harmony-manifest-success.yml</itemPath>
     </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
