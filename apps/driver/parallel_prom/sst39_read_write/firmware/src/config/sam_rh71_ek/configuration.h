@@ -93,6 +93,7 @@ extern "C" {
 #define DRV_SST39_CHIP_SELECT           (0U)
 #define DRV_SST39_PAGE_SIZE             (0x00000100U)
 #define DRV_SST39_ERASE_BUFFER_SIZE     (4096U)
+#define DRV_SST39_MEMORY_SIZE           (0x00080000U)
 
 
 
