@@ -55,12 +55,12 @@
 #include "peripheral/flexcom/twi/master/plib_flexcom9_twi_master.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "driver/i2c/drv_i2c.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
 #include "bsp/bsp.h"
-#include "driver/i2c/drv_i2c.h"
 #include "app_i2c_eeprom.h"
 
 
@@ -74,13 +74,13 @@ extern "C" {
 // DOM-IGNORE-END
 
 /* Device Information */
-#define DEVICE_NAME			 "ATSAMRH71F20C"
-#define DEVICE_ARCH			 "CORTEX-M7"
-#define DEVICE_FAMILY		 "SAMRH"
-#define DEVICE_SERIES		 "SAMRH71"
+#define DEVICE_NAME          "ATSAMRH71F20C"
+#define DEVICE_ARCH          "CORTEX-M7"
+#define DEVICE_FAMILY        "SAMRH"
+#define DEVICE_SERIES        "SAMRH71"
 
 /* CPU clock frequency */
-#define CPU_CLOCK_FREQUENCY 100000000
+#define CPU_CLOCK_FREQUENCY 100000000U
 
 // *****************************************************************************
 // *****************************************************************************
