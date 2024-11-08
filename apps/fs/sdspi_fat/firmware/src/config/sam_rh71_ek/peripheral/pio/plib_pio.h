@@ -109,21 +109,21 @@
 
 
 /*** Macros for GPIO_PA7 pin ***/
-#define GPIO_PA7_Set()               (PIOA_REGS->PIO_SODR = (1<<7))
-#define GPIO_PA7_Clear()             (PIOA_REGS->PIO_CODR = (1<<7))
+#define GPIO_PA7_Set()               (PIOA_REGS->PIO_SODR = ((uint32_t)1U<<7U))
+#define GPIO_PA7_Clear()             (PIOA_REGS->PIO_CODR = ((uint32_t)1U<<7U))
 #define GPIO_PA7_Toggle()            do {\
-                                            PIOA_REGS->PIO_MSKR = (1<<7); \
-                                            PIOA_REGS->PIO_ODSR ^= (1<<7);\
+                                            PIOA_REGS->PIO_MSKR = ((uint32_t)1U<<7U); \
+                                            PIOA_REGS->PIO_ODSR ^= ((uint32_t)1U<<7U);\
                                         } while (0)
 #define GPIO_PA7_OutputEnable()      do {\
-                                            PIOA_REGS->PIO_MSKR = (1<<7); \
-                                            PIOA_REGS->PIO_CFGR |=(1 << PIO_CFGR_DIR_Pos);\
+                                            PIOA_REGS->PIO_MSKR = ((uint32_t)1U<<7U); \
+                                            PIOA_REGS->PIO_CFGR |=((uint32_t)1U << PIO_CFGR_DIR_Pos);\
                                         }while(0)
 #define GPIO_PA7_InputEnable()       do { \
-                                            PIOA_REGS->PIO_MSKR = (1<<7); \
-                                            PIOA_REGS->PIO_CFGR &= ~(1 << PIO_CFGR_DIR_Pos);\
+                                            PIOA_REGS->PIO_MSKR = ((uint32_t)1U<<7U); \
+                                            PIOA_REGS->PIO_CFGR &= ~((uint32_t)1U << PIO_CFGR_DIR_Pos);\
                                         } while (0)
-#define GPIO_PA7_Get()               ((PIOA_REGS->PIO_PDSR >> 7) & 0x1)
+#define GPIO_PA7_Get()               ((PIOA_REGS->PIO_PDSR >> 7U) & 0x1U)
 #define GPIO_PA7_PIN                  PIO_PIN_PA7
 // *****************************************************************************
 /* PIO Ports
