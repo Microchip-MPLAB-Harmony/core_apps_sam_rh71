@@ -133,17 +133,15 @@
 */
 
 
-typedef enum
-{
-    SYS_PORT_A = (uint32_t)&(PIO_REGS->PIO_GROUP[0]),
-    SYS_PORT_B = (uint32_t)&(PIO_REGS->PIO_GROUP[1]),
-    SYS_PORT_C = (uint32_t)&(PIO_REGS->PIO_GROUP[2]),
-    SYS_PORT_D = (uint32_t)&(PIO_REGS->PIO_GROUP[3]),
-    SYS_PORT_E = (uint32_t)&(PIO_REGS->PIO_GROUP[4]),
-    SYS_PORT_F = (uint32_t)&(PIO_REGS->PIO_GROUP[5]),
-    SYS_PORT_G = (uint32_t)&(PIO_REGS->PIO_GROUP[6]),
-} SYS_PORT;
+#define SYS_PORT_A ((uint32_t)&(PIO_REGS->PIO_GROUP[0]))
+#define SYS_PORT_B ((uint32_t)&(PIO_REGS->PIO_GROUP[1]))
+#define SYS_PORT_C ((uint32_t)&(PIO_REGS->PIO_GROUP[2]))
+#define SYS_PORT_D ((uint32_t)&(PIO_REGS->PIO_GROUP[3]))
+#define SYS_PORT_E ((uint32_t)&(PIO_REGS->PIO_GROUP[4]))
+#define SYS_PORT_F ((uint32_t)&(PIO_REGS->PIO_GROUP[5]))
+#define SYS_PORT_G ((uint32_t)&(PIO_REGS->PIO_GROUP[6]))
 
+typedef uint32_t SYS_PORT;
 
 // *****************************************************************************
 /* Sys Port Pins
