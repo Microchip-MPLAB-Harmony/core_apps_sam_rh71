@@ -1,0 +1,413 @@
+configVersion: 1.0.0
+componentName: hemc
+coreVersion: 5.8.2
+device: ATSAMRH71F20C
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: hemc
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: hemc_cs0
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: drv_sst39
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: drv_sst39_HEMC_CS_dependency
+            type: String
+          type: Attributes
+        type: DirectCapability
+      type: Attachments
+    type: hemc
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: hemc
+          x: '35'
+          y: '174'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    CS_0_CONNECTED_COMPONENT:
+      attributes:
+        id: CS_0_CONNECTED_COMPONENT
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: drv_sst39
+          type: Dynamic
+        type: Values
+      type: String
+    CS_0_END_ADDRESS:
+      attributes:
+        id: CS_0_END_ADDRESS
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '0x6007ffff'
+          type: Dynamic
+        type: Values
+      type: String
+    CS_0_MEMORY_BANK_SIZE:
+      attributes:
+        id: CS_0_MEMORY_BANK_SIZE
+      children:
+      - children:
+        - attributes:
+            value: '6'
+          type: User
+        type: Values
+      type: KeyValueSet
+    CS_0_MEMORY_BASE:
+      attributes:
+        id: CS_0_MEMORY_BASE
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    CS_0_RAM_CHECK_BIT_INIT_SIZE:
+      attributes:
+        id: CS_0_RAM_CHECK_BIT_INIT_SIZE
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '524288'
+          type: Dynamic
+        type: Values
+      type: Hex
+    HSDRAMC_CR__NB:
+      attributes:
+        id: HSDRAMC_CR__NB
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSDRAMC_CR__NC:
+      attributes:
+        id: HSDRAMC_CR__NC
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSDRAMC_CR__NR:
+      attributes:
+        id: HSDRAMC_CR__NR
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_DATA_BUS_CS0:
+      attributes:
+        id: HSMC_DATA_BUS_CS0
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '2'
+          type: Dynamic
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    HSMC_DATA_BUS_CS1:
+      attributes:
+        id: HSMC_DATA_BUS_CS1
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_DATA_BUS_CS2:
+      attributes:
+        id: HSMC_DATA_BUS_CS2
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_DATA_BUS_CS3:
+      attributes:
+        id: HSMC_DATA_BUS_CS3
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_DATA_BUS_CS4:
+      attributes:
+        id: HSMC_DATA_BUS_CS4
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_DATA_BUS_CS5:
+      attributes:
+        id: HSMC_DATA_BUS_CS5
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_MODE_RMW0:
+      attributes:
+        id: HSMC_MODE_RMW0
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    HSMC_NCS_RD_PULSE_CS0:
+      attributes:
+        id: HSMC_NCS_RD_PULSE_CS0
+      children:
+      - children:
+        - attributes:
+            value: '8'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_NCS_RD_SETUP_CS0:
+      attributes:
+        id: HSMC_NCS_RD_SETUP_CS0
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_NCS_WR_PULSE_CS0:
+      attributes:
+        id: HSMC_NCS_WR_PULSE_CS0
+      children:
+      - children:
+        - attributes:
+            value: '8'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_NCS_WR_SETUP_CS0:
+      attributes:
+        id: HSMC_NCS_WR_SETUP_CS0
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_NRD_CYCLE_CS0:
+      attributes:
+        id: HSMC_NRD_CYCLE_CS0
+      children:
+      - children:
+        - attributes:
+            value: '12'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_NRD_PULSE_CS0:
+      attributes:
+        id: HSMC_NRD_PULSE_CS0
+      children:
+      - children:
+        - attributes:
+            value: '10'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_NRD_SETUP_CS0:
+      attributes:
+        id: HSMC_NRD_SETUP_CS0
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_NWAIT_MODE_CS0:
+      attributes:
+        id: HSMC_NWAIT_MODE_CS0
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_NWAIT_MODE_CS1:
+      attributes:
+        id: HSMC_NWAIT_MODE_CS1
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_NWAIT_MODE_CS2:
+      attributes:
+        id: HSMC_NWAIT_MODE_CS2
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_NWAIT_MODE_CS3:
+      attributes:
+        id: HSMC_NWAIT_MODE_CS3
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_NWAIT_MODE_CS4:
+      attributes:
+        id: HSMC_NWAIT_MODE_CS4
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_NWAIT_MODE_CS5:
+      attributes:
+        id: HSMC_NWAIT_MODE_CS5
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    HSMC_NWE_CYCLE_CS0:
+      attributes:
+        id: HSMC_NWE_CYCLE_CS0
+      children:
+      - children:
+        - attributes:
+            value: '12'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_NWE_PULSE_CS0:
+      attributes:
+        id: HSMC_NWE_PULSE_CS0
+      children:
+      - children:
+        - attributes:
+            value: '10'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_NWE_SETUP_CS0:
+      attributes:
+        id: HSMC_NWE_SETUP_CS0
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: Integer
+    HSMC_READ_ENABLE_MODE_CS0:
+      attributes:
+        id: HSMC_READ_ENABLE_MODE_CS0
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    HSMC_WRITE_ENABLE_MODE_CS0:
+      attributes:
+        id: HSMC_WRITE_ENABLE_MODE_CS0
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}
