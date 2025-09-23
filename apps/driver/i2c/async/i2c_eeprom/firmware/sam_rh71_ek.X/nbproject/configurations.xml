@@ -177,9 +177,21 @@
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="true">
+      <logicalFolder name="i2c_eeprom_sam_rh71_ek_sam_rh71_ek" displayName="i2c_eeprom_sam_rh71_ek_sam_rh71_ek" projectFiles="true">
+        <itemPath>i2c_eeprom_sam_rh71_ek_sam_rh71_ek/mcc-config.mc4</itemPath>
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>i2c_eeprom_sam_rh71_ek_sam_rh71_ek/components/BSP_SAM_RH71_Evaluation_Kit.yml</itemPath>
+          <itemPath>i2c_eeprom_sam_rh71_ek_sam_rh71_ek/components/HarmonyCore.yml</itemPath>
+          <itemPath>i2c_eeprom_sam_rh71_ek_sam_rh71_ek/components/cmsis.yml</itemPath>
+          <itemPath>i2c_eeprom_sam_rh71_ek_sam_rh71_ek/components/core.yml</itemPath>
+          <itemPath>i2c_eeprom_sam_rh71_ek_sam_rh71_ek/components/dfp.yml</itemPath>
+          <itemPath>i2c_eeprom_sam_rh71_ek_sam_rh71_ek/components/drv_i2c.yml</itemPath>
+          <itemPath>i2c_eeprom_sam_rh71_ek_sam_rh71_ek/components/drv_i2c_0.yml</itemPath>
+          <itemPath>i2c_eeprom_sam_rh71_ek_sam_rh71_ek/components/flexcom9.yml</itemPath>
+        </logicalFolder>
+      </logicalFolder>
       <itemPath>Makefile</itemPath>
       <itemPath>../src/config/sam_rh71_ek/harmony-manifest-success.yml</itemPath>
-      <itemPath>i2c_eeprom_sam_rh71_ek.mc3</itemPath>
       <itemPath>../src/config/sam_rh71_ek/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
@@ -258,7 +270,7 @@
         <targetPluginBoard/>
         <platformTool>j32</platformTool>
         <languageToolchain>XC32</languageToolchain>
-        <languageToolchainVersion>4.45</languageToolchainVersion>
+        <languageToolchainVersion>4.60</languageToolchainVersion>
         <platform>3</platform>
       </toolsSet>
       <packs>
