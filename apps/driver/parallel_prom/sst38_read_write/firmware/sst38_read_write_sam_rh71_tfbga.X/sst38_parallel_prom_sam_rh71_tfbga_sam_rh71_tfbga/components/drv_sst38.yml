@@ -1,0 +1,94 @@
+configVersion: 1.0.0
+componentName: drv_sst38
+coreVersion: 5.8.2
+device: ATSAMRH71F20C
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: drv_sst38
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: drv_sst38_HEMC_CS_dependency
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: hemc
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: hemc_cs0
+            type: String
+          type: Attributes
+        type: DirectDependency
+      type: Attachments
+    type: drv_sst38
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: drv_sst38
+          x: '169'
+          y: '156'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    CHIP_SELECT:
+      attributes:
+        id: CHIP_SELECT
+      children:
+      - children:
+        - attributes:
+            id: drv_sst38
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    DRV_SST38_PLIB:
+      attributes:
+        id: DRV_SST38_PLIB
+      children:
+      - children:
+        - attributes:
+            id: drv_sst38
+            value: HEMC
+          type: Dynamic
+        type: Values
+      type: String
+    FLASH_START_ADDRESS:
+      attributes:
+        id: FLASH_START_ADDRESS
+      children:
+      - children:
+        - attributes:
+            id: drv_sst38
+            value: '0x60000000'
+          type: Dynamic
+        type: Values
+      type: String
+  userData: {}

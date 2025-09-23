@@ -1,0 +1,1601 @@
+configVersion: 1.0.0
+componentName: core
+coreVersion: 5.8.2
+device: ATSAMRH71F20C
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: core
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: CMSIS_5
+  type: package
+  version: 5.9.0
+- dependencyPackage: ''
+  name: core
+  type: package
+  version: v3.15.5
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: core
+          x: '20'
+          y: '59'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    CoreMPU_PRIVDEFENA:
+      attributes:
+        id: CoreMPU_PRIVDEFENA
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    CoreUseMPU:
+      attributes:
+        id: CoreUseMPU
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    HEMC_CLOCK_ENABLE:
+      attributes:
+        id: HEMC_CLOCK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: hemc
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    HEMC_CLOCK_FREQUENCY:
+      attributes:
+        id: HEMC_CLOCK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '32000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    HEMC_GCLK_ENABLE:
+      attributes:
+        id: HEMC_GCLK_ENABLE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    HEMC_GCLK_FREQUENCY:
+      attributes:
+        id: HEMC_GCLK_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '32000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MPU_Region_0_Access:
+      attributes:
+        id: MPU_Region_0_Access
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '3'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MPU_Region_0_Address:
+      attributes:
+        id: MPU_Region_0_Address
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '1610612736'
+          type: Dynamic
+        type: Values
+      type: Hex
+    MPU_Region_0_Enable:
+      attributes:
+        id: MPU_Region_0_Enable
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    MPU_Region_0_Execute:
+      attributes:
+        id: MPU_Region_0_Execute
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    MPU_Region_0_Length:
+      attributes:
+        id: MPU_Region_0_Length
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 8MB
+          type: Dynamic
+        type: Values
+      type: String
+    MPU_Region_0_Share:
+      attributes:
+        id: MPU_Region_0_Share
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    MPU_Region_0_Size:
+      attributes:
+        id: MPU_Region_0_Size
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '23'
+          type: Dynamic
+        - attributes:
+            value: '18'
+          type: User
+        type: Values
+      type: KeyValueSet
+    MPU_Region_0_Type:
+      attributes:
+        id: MPU_Region_0_Type
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    MPU_Region_Name0:
+      attributes:
+        id: MPU_Region_Name0
+      children:
+      - children:
+        - attributes:
+            value: HEMC
+          type: User
+        type: Values
+      type: String
+    MPU_Region_Name0_Options:
+      attributes:
+        id: MPU_Region_Name0_Options
+      children:
+      - children:
+        - attributes:
+            value: HEMC
+          type: User
+        type: Values
+      type: Combo
+    PIN_163_FUNCTION_TYPE:
+      attributes:
+        id: PIN_163_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D0
+          type: User
+        type: Values
+      type: String
+    PIN_163_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_163_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_164_FUNCTION_TYPE:
+      attributes:
+        id: PIN_164_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D1
+          type: User
+        type: Values
+      type: String
+    PIN_164_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_164_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_165_FUNCTION_TYPE:
+      attributes:
+        id: PIN_165_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D2
+          type: User
+        type: Values
+      type: String
+    PIN_165_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_165_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_166_FUNCTION_TYPE:
+      attributes:
+        id: PIN_166_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D3
+          type: User
+        type: Values
+      type: String
+    PIN_166_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_166_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_167_FUNCTION_TYPE:
+      attributes:
+        id: PIN_167_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D4
+          type: User
+        type: Values
+      type: String
+    PIN_167_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_167_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_168_FUNCTION_TYPE:
+      attributes:
+        id: PIN_168_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D5
+          type: User
+        type: Values
+      type: String
+    PIN_168_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_168_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_169_FUNCTION_TYPE:
+      attributes:
+        id: PIN_169_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D6
+          type: User
+        type: Values
+      type: String
+    PIN_169_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_169_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_170_FUNCTION_TYPE:
+      attributes:
+        id: PIN_170_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D7
+          type: User
+        type: Values
+      type: String
+    PIN_170_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_170_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_171_FUNCTION_TYPE:
+      attributes:
+        id: PIN_171_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D8
+          type: User
+        type: Values
+      type: String
+    PIN_171_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_171_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_172_FUNCTION_TYPE:
+      attributes:
+        id: PIN_172_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D9
+          type: User
+        type: Values
+      type: String
+    PIN_172_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_172_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_173_FUNCTION_TYPE:
+      attributes:
+        id: PIN_173_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D10
+          type: User
+        type: Values
+      type: String
+    PIN_173_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_173_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_174_FUNCTION_TYPE:
+      attributes:
+        id: PIN_174_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D11
+          type: User
+        type: Values
+      type: String
+    PIN_174_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_174_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_175_FUNCTION_TYPE:
+      attributes:
+        id: PIN_175_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D12
+          type: User
+        type: Values
+      type: String
+    PIN_175_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_175_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_176_FUNCTION_TYPE:
+      attributes:
+        id: PIN_176_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D13
+          type: User
+        type: Values
+      type: String
+    PIN_176_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_176_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_177_FUNCTION_TYPE:
+      attributes:
+        id: PIN_177_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D14
+          type: User
+        type: Values
+      type: String
+    PIN_177_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_177_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_178_FUNCTION_TYPE:
+      attributes:
+        id: PIN_178_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_D15
+          type: User
+        type: Values
+      type: String
+    PIN_178_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_178_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_200_FUNCTION_TYPE:
+      attributes:
+        id: PIN_200_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A1
+          type: User
+        type: Values
+      type: String
+    PIN_200_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_200_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_201_FUNCTION_TYPE:
+      attributes:
+        id: PIN_201_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A2
+          type: User
+        type: Values
+      type: String
+    PIN_201_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_201_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_202_FUNCTION_TYPE:
+      attributes:
+        id: PIN_202_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A3
+          type: User
+        type: Values
+      type: String
+    PIN_202_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_202_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_203_FUNCTION_TYPE:
+      attributes:
+        id: PIN_203_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A4
+          type: User
+        type: Values
+      type: String
+    PIN_203_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_203_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_204_FUNCTION_TYPE:
+      attributes:
+        id: PIN_204_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A5
+          type: User
+        type: Values
+      type: String
+    PIN_204_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_204_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_205_FUNCTION_TYPE:
+      attributes:
+        id: PIN_205_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A6
+          type: User
+        type: Values
+      type: String
+    PIN_205_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_205_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_206_FUNCTION_TYPE:
+      attributes:
+        id: PIN_206_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A7
+          type: User
+        type: Values
+      type: String
+    PIN_206_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_206_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_207_FUNCTION_TYPE:
+      attributes:
+        id: PIN_207_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A8
+          type: User
+        type: Values
+      type: String
+    PIN_207_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_207_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_208_FUNCTION_TYPE:
+      attributes:
+        id: PIN_208_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A9
+          type: User
+        type: Values
+      type: String
+    PIN_208_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_208_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_209_FUNCTION_TYPE:
+      attributes:
+        id: PIN_209_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A10
+          type: User
+        type: Values
+      type: String
+    PIN_209_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_209_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_210_FUNCTION_TYPE:
+      attributes:
+        id: PIN_210_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A11
+          type: User
+        type: Values
+      type: String
+    PIN_210_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_210_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_211_FUNCTION_TYPE:
+      attributes:
+        id: PIN_211_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A12
+          type: User
+        type: Values
+      type: String
+    PIN_211_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_211_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_212_FUNCTION_TYPE:
+      attributes:
+        id: PIN_212_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A13
+          type: User
+        type: Values
+      type: String
+    PIN_212_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_212_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_213_FUNCTION_TYPE:
+      attributes:
+        id: PIN_213_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A14
+          type: User
+        type: Values
+      type: String
+    PIN_213_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_213_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_214_FUNCTION_TYPE:
+      attributes:
+        id: PIN_214_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A15/BA0
+          type: User
+        type: Values
+      type: String
+    PIN_214_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_214_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_215_FUNCTION_TYPE:
+      attributes:
+        id: PIN_215_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A16/BA1
+          type: User
+        type: Values
+      type: String
+    PIN_215_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_215_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_216_FUNCTION_TYPE:
+      attributes:
+        id: PIN_216_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A17
+          type: User
+        type: Values
+      type: String
+    PIN_216_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_216_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_217_FUNCTION_TYPE:
+      attributes:
+        id: PIN_217_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A18
+          type: User
+        type: Values
+      type: String
+    PIN_217_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_217_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_218_FUNCTION_TYPE:
+      attributes:
+        id: PIN_218_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A19
+          type: User
+        type: Values
+      type: String
+    PIN_218_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_218_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_219_FUNCTION_TYPE:
+      attributes:
+        id: PIN_219_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A20
+          type: User
+        type: Values
+      type: String
+    PIN_219_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_219_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_220_FUNCTION_TYPE:
+      attributes:
+        id: PIN_220_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A21
+          type: User
+        type: Values
+      type: String
+    PIN_220_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_220_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_221_FUNCTION_TYPE:
+      attributes:
+        id: PIN_221_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_A22
+          type: User
+        type: Values
+      type: String
+    PIN_221_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_221_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_233_FUNCTION_TYPE:
+      attributes:
+        id: PIN_233_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_NCS0
+          type: User
+        type: Values
+      type: String
+    PIN_233_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_233_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_239_FUNCTION_TYPE:
+      attributes:
+        id: PIN_239_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_NRD
+          type: User
+        type: Values
+      type: String
+    PIN_239_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_239_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_240_FUNCTION_TYPE:
+      attributes:
+        id: PIN_240_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: HEMC_NWE
+          type: User
+        type: Values
+      type: String
+    PIN_240_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_240_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: A
+          type: User
+        type: Values
+      type: String
+    PIN_241_DIR:
+      attributes:
+        id: PIN_241_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_241_FUNCTION_NAME:
+      attributes:
+        id: PIN_241_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: LED2
+          type: User
+        type: Values
+      type: String
+    PIN_241_FUNCTION_TYPE:
+      attributes:
+        id: PIN_241_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_241_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_241_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_242_DIR:
+      attributes:
+        id: PIN_242_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_242_FUNCTION_NAME:
+      attributes:
+        id: PIN_242_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: LED3
+          type: User
+        type: Values
+      type: String
+    PIN_242_FUNCTION_TYPE:
+      attributes:
+        id: PIN_242_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_242_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_242_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_88_DIR:
+      attributes:
+        id: PIN_88_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_88_FUNCTION_NAME:
+      attributes:
+        id: PIN_88_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: LED0
+          type: User
+        type: Values
+      type: String
+    PIN_88_FUNCTION_TYPE:
+      attributes:
+        id: PIN_88_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_88_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_88_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_92_DIR:
+      attributes:
+        id: PIN_92_DIR
+      children:
+      - children:
+        - attributes:
+            value: Out
+          type: User
+        type: Values
+      type: String
+    PIN_92_FUNCTION_NAME:
+      attributes:
+        id: PIN_92_FUNCTION_NAME
+      children:
+      - children:
+        - attributes:
+            value: LED1
+          type: User
+        type: Values
+      type: String
+    PIN_92_FUNCTION_TYPE:
+      attributes:
+        id: PIN_92_FUNCTION_TYPE
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PIN_92_PERIPHERAL_FUNCTION:
+      attributes:
+        id: PIN_92_PERIPHERAL_FUNCTION
+      children:
+      - children:
+        - attributes:
+            value: GPIO
+          type: User
+        type: Values
+      type: String
+    PORT_B_CFGR_Value19:
+      attributes:
+        id: PORT_B_CFGR_Value19
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x100'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_B_CFGR_Value23:
+      attributes:
+        id: PORT_B_CFGR_Value23
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x100'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_B_MSKR_ValueA:
+      attributes:
+        id: PORT_B_MSKR_ValueA
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_B_MSKR_ValueB:
+      attributes:
+        id: PORT_B_MSKR_ValueB
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_B_MSKR_ValueC:
+      attributes:
+        id: PORT_B_MSKR_ValueC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_B_MSKR_ValueD:
+      attributes:
+        id: PORT_B_MSKR_ValueD
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_B_MSKR_ValueE:
+      attributes:
+        id: PORT_B_MSKR_ValueE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_B_MSKR_ValueF:
+      attributes:
+        id: PORT_B_MSKR_ValueF
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_B_MSKR_ValueG:
+      attributes:
+        id: PORT_B_MSKR_ValueG
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_B_MSKR_ValueGPIO:
+      attributes:
+        id: PORT_B_MSKR_ValueGPIO
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x880000'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_D_MSKR_ValueA:
+      attributes:
+        id: PORT_D_MSKR_ValueA
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0xffff'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_D_MSKR_ValueB:
+      attributes:
+        id: PORT_D_MSKR_ValueB
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_D_MSKR_ValueC:
+      attributes:
+        id: PORT_D_MSKR_ValueC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_D_MSKR_ValueD:
+      attributes:
+        id: PORT_D_MSKR_ValueD
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_D_MSKR_ValueE:
+      attributes:
+        id: PORT_D_MSKR_ValueE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_D_MSKR_ValueF:
+      attributes:
+        id: PORT_D_MSKR_ValueF
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_D_MSKR_ValueG:
+      attributes:
+        id: PORT_D_MSKR_ValueG
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_D_MSKR_ValueGPIO:
+      attributes:
+        id: PORT_D_MSKR_ValueGPIO
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_CFGR_Value19:
+      attributes:
+        id: PORT_F_CFGR_Value19
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x100'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_CFGR_Value20:
+      attributes:
+        id: PORT_F_CFGR_Value20
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x100'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_MSKR_ValueA:
+      attributes:
+        id: PORT_F_MSKR_ValueA
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x60800'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_MSKR_ValueB:
+      attributes:
+        id: PORT_F_MSKR_ValueB
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_MSKR_ValueC:
+      attributes:
+        id: PORT_F_MSKR_ValueC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_MSKR_ValueD:
+      attributes:
+        id: PORT_F_MSKR_ValueD
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_MSKR_ValueE:
+      attributes:
+        id: PORT_F_MSKR_ValueE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_MSKR_ValueF:
+      attributes:
+        id: PORT_F_MSKR_ValueF
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_MSKR_ValueG:
+      attributes:
+        id: PORT_F_MSKR_ValueG
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_F_MSKR_ValueGPIO:
+      attributes:
+        id: PORT_F_MSKR_ValueGPIO
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x180000'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_G_MSKR_ValueA:
+      attributes:
+        id: PORT_G_MSKR_ValueA
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x7ffffe'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_G_MSKR_ValueB:
+      attributes:
+        id: PORT_G_MSKR_ValueB
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_G_MSKR_ValueC:
+      attributes:
+        id: PORT_G_MSKR_ValueC
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_G_MSKR_ValueD:
+      attributes:
+        id: PORT_G_MSKR_ValueD
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_G_MSKR_ValueE:
+      attributes:
+        id: PORT_G_MSKR_ValueE
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_G_MSKR_ValueF:
+      attributes:
+        id: PORT_G_MSKR_ValueF
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_G_MSKR_ValueG:
+      attributes:
+        id: PORT_G_MSKR_ValueG
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+    PORT_G_MSKR_ValueGPIO:
+      attributes:
+        id: PORT_G_MSKR_ValueGPIO
+      children:
+      - children:
+        - attributes:
+            id: core
+            value: '0x0'
+          type: Dynamic
+        type: Values
+      type: String
+  userData:
+    children:
+    - attributes:
+        canvasHeight: '384'
+        canvasWidth: '562'
+      type: GraphSettings
+    - children:
+      - attributes:
+          id: profile0
+          name: Main
+        type: Profile
+      type: PowerProfiles
+    type: UserData
