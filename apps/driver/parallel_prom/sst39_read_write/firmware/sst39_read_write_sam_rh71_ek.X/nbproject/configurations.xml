@@ -1,7 +1,9 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <configurationDescriptor version="65">
   <logicalFolder name="root" displayName="root" projectFiles="true">
-    <logicalFolder name="HeaderFiles" displayName="Header Files" projectFiles="true">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
         <logicalFolder name="sam_rh71_ek" displayName="sam_rh71_ek" projectFiles="true">
           <logicalFolder name="driver" displayName="driver" projectFiles="true">
@@ -62,7 +64,9 @@
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="packs" displayName="packs" projectFiles="true">
-        <logicalFolder name="ATSAMRH71F20C_DFP" displayName="ATSAMRH71F20C_DFP" projectFiles="true">
+        <logicalFolder name="ATSAMRH71F20C_DFP"
+                       displayName="ATSAMRH71F20C_DFP"
+                       projectFiles="true">
           <logicalFolder name="component" displayName="component" projectFiles="true">
             <itemPath>../src/packs/ATSAMRH71F20C_DFP/component/sha.h</itemPath>
             <itemPath>../src/packs/ATSAMRH71F20C_DFP/component/flexcom.h</itemPath>
@@ -169,14 +173,37 @@
       </logicalFolder>
       <itemPath>../src/app.h</itemPath>
     </logicalFolder>
-    <logicalFolder name="LinkerScript" displayName="Linker Files" projectFiles="true">
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="true">
+      <logicalFolder name="sst39_read_write_sam_rh71_ek_sam_rh71_ek"
+                     displayName="sst39_read_write_sam_rh71_ek_sam_rh71_ek"
+                     projectFiles="true">
+        <logicalFolder name="components" displayName="components" projectFiles="true">
+          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/HarmonyCore.yml</itemPath>
+          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/cmsis.yml</itemPath>
+          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/core.yml</itemPath>
+          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/dfp.yml</itemPath>
+          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/drv_sst39.yml</itemPath>
+          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/hemc.yml</itemPath>
+        </logicalFolder>
+        <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/mcc-config.mc4</itemPath>
+      </logicalFolder>
+      <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/sam_rh71_ek/harmony-manifest-success.yml</itemPath>
+    </logicalFolder>
+    <logicalFolder name="LinkerScript"
+                   displayName="Linker Files"
+                   projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
         <logicalFolder name="sam_rh71_ek" displayName="sam_rh71_ek" projectFiles="true">
           <itemPath>../src/config/sam_rh71_ek/ATSAMRH71F20C.ld</itemPath>
         </logicalFolder>
       </logicalFolder>
     </logicalFolder>
-    <logicalFolder name="SourceFiles" displayName="Source Files" projectFiles="true">
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
       <logicalFolder name="config" displayName="config" projectFiles="true">
         <logicalFolder name="sam_rh71_ek" displayName="sam_rh71_ek" projectFiles="true">
           <logicalFolder name="driver" displayName="driver" projectFiles="true">
@@ -224,21 +251,6 @@
       <itemPath>../src/main.c</itemPath>
       <itemPath>../src/app.c</itemPath>
     </logicalFolder>
-    <logicalFolder name="ExternalFiles" displayName="Important Files" projectFiles="false">
-      <logicalFolder name="sst39_read_write_sam_rh71_ek_sam_rh71_ek" displayName="sst39_read_write_sam_rh71_ek_sam_rh71_ek" projectFiles="true">
-        <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/mcc-config.mc4</itemPath>
-        <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/HarmonyCore.yml</itemPath>
-          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/cmsis.yml</itemPath>
-          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/core.yml</itemPath>
-          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/dfp.yml</itemPath>
-          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/drv_sst39.yml</itemPath>
-          <itemPath>sst39_read_write_sam_rh71_ek_sam_rh71_ek/components/hemc.yml</itemPath>
-        </logicalFolder>
-      </logicalFolder>
-      <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_rh71_ek/harmony-manifest-success.yml</itemPath>
-    </logicalFolder>
   </logicalFolder>
   <projectmakefile>Makefile</projectmakefile>
   <confs>
@@ -246,8 +258,8 @@
       <toolsSet>
         <developmentServer>localhost</developmentServer>
         <targetDevice>ATSAMRH71F20C</targetDevice>
-        <targetHeader/>
-        <targetPluginBoard/>
+        <targetHeader></targetHeader>
+        <targetPluginBoard></targetPluginBoard>
         <platformTool>j32</platformTool>
         <languageToolchain>XC32</languageToolchain>
         <languageToolchainVersion>4.60</languageToolchainVersion>
@@ -269,7 +281,7 @@
         <loading>
           <useAlternateLoadableFile>false</useAlternateLoadableFile>
           <parseOnProdLoad>false</parseOnProdLoad>
-          <alternateLoadableFile/>
+          <alternateLoadableFile></alternateLoadableFile>
         </loading>
         <subordinates>
         </subordinates>
@@ -277,15 +289,15 @@
       <makeCustomizationType>
         <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
         <makeUseCleanTarget>false</makeUseCleanTarget>
-        <makeCustomizationPreStep/>
+        <makeCustomizationPreStep></makeCustomizationPreStep>
         <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
-        <makeCustomizationPostStep/>
+        <makeCustomizationPostStep></makeCustomizationPostStep>
         <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
       <C32>
-        <property key="additional-warnings" value="true"/>
+        <property key="additional-warnings" value="false"/>
         <property key="addresss-attribute-use" value="false"/>
         <property key="appendMe" value=""/>
         <property key="enable-app-io" value="false"/>
@@ -293,11 +305,12 @@
         <property key="enable-symbols" value="true"/>
         <property key="enable-unroll-loops" value="false"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src;../src/config/sam_rh71_ek;../src/packs/ATSAMRH71F20C_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/sam_rh71_ek;../src/packs/ATSAMRH71F20C_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
-        <property key="make-warnings-into-errors" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
         <property key="optimization-level" value="-O1"/>
         <property key="place-data-into-section" value="true"/>
         <property key="post-instruction-scheduling" value="default"/>
@@ -392,7 +405,8 @@
         <property key="enable-unroll-loops" value="false"/>
         <property key="exceptions" value="true"/>
         <property key="exclude-floating-point" value="false"/>
-        <property key="extra-include-directories" value="../src;../src/config/sam_rh71_ek;../src/packs/ATSAMRH71F20C_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
+        <property key="extra-include-directories"
+                  value="../src;../src/config/sam_rh71_ek;../src/packs/ATSAMRH71F20C_DFP;../src/packs/CMSIS/;../src/packs/CMSIS/CMSIS/Core/Include"/>
         <property key="generate-16-bit-code" value="false"/>
         <property key="generate-micro-compressed-code" value="false"/>
         <property key="isolate-each-function" value="true"/>
