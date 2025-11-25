@@ -231,7 +231,6 @@
         <itemPath>i2c_eeprom_sam_rh71_ek_freertos_sam_rh71_ek_freertos/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_rh71_ek_freertos/harmony-manifest-success.yml</itemPath>
       <itemPath>../src/config/sam_rh71_ek_freertos/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -348,7 +347,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="CMSIS" vendor="ARM" version="5.9.0"/>
         <pack name="SAMRH71_DFP" vendor="Microchip" version="2.6.253"/>
       </packs>
       <ScriptingSettings>

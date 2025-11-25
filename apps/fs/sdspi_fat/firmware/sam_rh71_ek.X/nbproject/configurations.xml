@@ -15,6 +15,7 @@
               <itemPath>../src/config/sam_rh71_ek/driver/sdspi/src/drv_sdspi_local.h</itemPath>
               <itemPath>../src/config/sam_rh71_ek/driver/sdspi/src/drv_sdspi_plib_interface.h</itemPath>
               <itemPath>../src/config/sam_rh71_ek/driver/sdspi/drv_sdspi.h</itemPath>
+              <itemPath>../src/config/sam_rh71_ek/driver/sdspi/src/drv_sdspi_file_system.h</itemPath>
             </logicalFolder>
             <itemPath>../src/config/sam_rh71_ek/driver/driver.h</itemPath>
             <itemPath>../src/config/sam_rh71_ek/driver/driver_common.h</itemPath>
@@ -240,7 +241,6 @@
         <itemPath>sdspi_fat_sam_rh71_ek_sam_rh71_ek/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_rh71_ek/harmony-manifest-success.yml</itemPath>
       <itemPath>../src/config/sam_rh71_ek/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
@@ -355,7 +355,7 @@
       </toolsSet>
       <packs>
         <pack name="SAMRH71_DFP" vendor="Microchip" version="2.6.253"/>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="CMSIS" vendor="ARM" version="5.9.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>

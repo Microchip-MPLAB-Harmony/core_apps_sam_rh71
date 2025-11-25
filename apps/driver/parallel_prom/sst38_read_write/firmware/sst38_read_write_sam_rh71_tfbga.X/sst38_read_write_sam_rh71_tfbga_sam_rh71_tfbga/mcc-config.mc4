@@ -21,7 +21,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_rh71_tfbga\configuration.h
   hash: 79af7b746731c95e416486d0bdc8a57361a0f6c9dcbe2fe5206aeb1956d38046
 - file: ..\src\config\sam_rh71_tfbga\definitions.h
-  hash: 9f56082266011bc38a7db92f03943f92f833fd92898defcb7cea50c244b52928
+  hash: eddfffbb072a31951b5ce03ae351a6bdfd501f8302893a625d048a24479f5ec2
 - file: ..\src\config\sam_rh71_tfbga\device.h
   hash: 5d7dfed25130d9b4e502a489b5d1f6974c1478491b08b6fadbf5d28fce6c2a45
 - file: ..\src\config\sam_rh71_tfbga\device_cache.h

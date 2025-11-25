@@ -56,12 +56,12 @@
 #include "FreeRTOS.h"
 #include "task.h"
 #include "peripheral/flexcom/usart/plib_flexcom1_usart.h"
-#include "bsp/bsp.h"
 #include "system/int/sys_int.h"
 #include "system/cache/sys_cache.h"
 #include "system/dma/sys_dma.h"
 #include "osal/osal.h"
 #include "system/debug/sys_debug.h"
+#include "bsp/bsp.h"
 #include "app_usart_echo.h"
 
 

@@ -182,21 +182,21 @@
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
                    projectFiles="true">
-      <logicalFolder name="sst38_parallel_prom_sam_rh71_tfbga_sam_rh71_tfbga"
-                     displayName="sst38_parallel_prom_sam_rh71_tfbga_sam_rh71_tfbga"
+      <logicalFolder name="sst38_read_write_sam_rh71_tfbga_sam_rh71_tfbga"
+                     displayName="sst38_read_write_sam_rh71_tfbga_sam_rh71_tfbga"
                      projectFiles="true">
         <logicalFolder name="components" displayName="components" projectFiles="true">
-          <itemPath>sst38_parallel_prom_sam_rh71_tfbga_sam_rh71_tfbga/components/HarmonyCore.yml</itemPath>
-          <itemPath>sst38_parallel_prom_sam_rh71_tfbga_sam_rh71_tfbga/components/cmsis.yml</itemPath>
-          <itemPath>sst38_parallel_prom_sam_rh71_tfbga_sam_rh71_tfbga/components/core.yml</itemPath>
-          <itemPath>sst38_parallel_prom_sam_rh71_tfbga_sam_rh71_tfbga/components/dfp.yml</itemPath>
-          <itemPath>sst38_parallel_prom_sam_rh71_tfbga_sam_rh71_tfbga/components/drv_sst38.yml</itemPath>
-          <itemPath>sst38_parallel_prom_sam_rh71_tfbga_sam_rh71_tfbga/components/hemc.yml</itemPath>
+          <itemPath>sst38_read_write_sam_rh71_tfbga_sam_rh71_tfbga/components/HarmonyCore.yml</itemPath>
+          <itemPath>sst38_read_write_sam_rh71_tfbga_sam_rh71_tfbga/components/cmsis.yml</itemPath>
+          <itemPath>sst38_read_write_sam_rh71_tfbga_sam_rh71_tfbga/components/core.yml</itemPath>
+          <itemPath>sst38_read_write_sam_rh71_tfbga_sam_rh71_tfbga/components/dfp.yml</itemPath>
+          <itemPath>sst38_read_write_sam_rh71_tfbga_sam_rh71_tfbga/components/drv_sst38.yml</itemPath>
+          <itemPath>sst38_read_write_sam_rh71_tfbga_sam_rh71_tfbga/components/hemc.yml</itemPath>
         </logicalFolder>
-        <itemPath>sst38_parallel_prom_sam_rh71_tfbga_sam_rh71_tfbga/mcc-config.mc4</itemPath>
+        <itemPath>sst38_read_write_sam_rh71_tfbga_sam_rh71_tfbga/mcc-config.mc4</itemPath>
       </logicalFolder>
       <itemPath>Makefile</itemPath>
-      <itemPath>../src/config/sam_rh71_tfbga/harmony-manifest-success.yml</itemPath>
+      <itemPath>../src/config/sam_rh71_tfbga/pin_configurations.csv</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -261,7 +261,6 @@
         </logicalFolder>
       </logicalFolder>
       <itemPath>../src/main.c</itemPath>
-      <itemPath>../src/config/sam_rh71_tfbga/pin_configurations.csv</itemPath>
       <itemPath>../src/app.c</itemPath>
     </logicalFolder>
   </logicalFolder>
@@ -279,7 +278,7 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="CMSIS" vendor="ARM" version="5.9.0"/>
         <pack name="SAMRH71_DFP" vendor="Microchip" version="2.6.253"/>
       </packs>
       <ScriptingSettings>

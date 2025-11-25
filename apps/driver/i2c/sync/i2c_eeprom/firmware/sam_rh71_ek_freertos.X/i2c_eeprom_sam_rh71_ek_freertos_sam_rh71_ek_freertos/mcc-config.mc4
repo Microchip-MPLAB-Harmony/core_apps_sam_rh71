@@ -30,7 +30,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_rh71_ek_freertos\configuration.h
   hash: 4a358fa057d647191345c6e66f8c824b020c3985e150c25ea436c3dacb2a672b
 - file: ..\src\config\sam_rh71_ek_freertos\definitions.h
-  hash: 990ba956e05be15962b61f35c2f9ec14c04fb464a9f21a14b1e2ec4642402e63
+  hash: 6dd7c5762b056add4a40593e798aa16b0bcaef6f9b5734ffb87df672b551614e
 - file: ..\src\config\sam_rh71_ek_freertos\device.h
   hash: 5d7dfed25130d9b4e502a489b5d1f6974c1478491b08b6fadbf5d28fce6c2a45
 - file: ..\src\config\sam_rh71_ek_freertos\device_cache.h

@@ -28,7 +28,7 @@ generatedFileHashHistoryMap:
 - file: ..\src\config\sam_rh71_ek\configuration.h
   hash: f726ec71d4c96df9a9dbf8d39dc08c309e2dd276c33f19250cdb624dc8255e5a
 - file: ..\src\config\sam_rh71_ek\definitions.h
-  hash: bf1ce4ef475b8ecc03b2da92deced55d548c8f74003547a63281d6576c370f76
+  hash: 0a1e412bff24fcddeac7debfb5a4f9263259991d6b4361dc0773bcc57251b422
 - file: ..\src\config\sam_rh71_ek\device.h
   hash: 5d7dfed25130d9b4e502a489b5d1f6974c1478491b08b6fadbf5d28fce6c2a45
 - file: ..\src\config\sam_rh71_ek\device_cache.h

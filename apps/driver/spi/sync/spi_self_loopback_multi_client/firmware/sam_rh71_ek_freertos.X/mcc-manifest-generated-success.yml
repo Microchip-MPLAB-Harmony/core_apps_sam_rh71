@@ -2,8 +2,8 @@
 
 manifest_file_version: 1.0.0
 project: spi_self_loopback_multi_client_sam_rh71_ek_freertos
-creation_date: 2025-09-23T09:21:15.346+00:00[UTC]
-operating_system: Windows 10
+creation_date: 2025-11-25T11:01:38.086+00:00[UTC]
+operating_system: Windows 11
 mcc_mode: IDE
 mcc_mode_version: v6.25
 device_name: ATSAMRH71F20C

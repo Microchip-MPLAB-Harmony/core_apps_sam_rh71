@@ -409,7 +409,7 @@ data:
             id: max
           children:
           - type: Value
-            value: 4.2949673E12
+            value: '4.2949673E12'
           type: Float
         type: Attributes
       - children:
@@ -494,7 +494,7 @@ data:
             id: max
           children:
           - type: Value
-            value: 4.2949673E12
+            value: '4.2949673E12'
           type: Float
         type: Attributes
       - children:
